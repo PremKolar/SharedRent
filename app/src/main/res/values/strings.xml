@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SharedRent</string>
+    <string name="header_tenant_name">Tenant</string>
+    <string name="header_income">Income</string>
+    <string name="header_livingArea">m²</string>
+    <string name="header_percent_livingArea">% m²</string>
+    <string name="header_percent_rent">% rent</string>
+    <string name="header_calculatedRent">Rent</string>
+    <string name="addFlatButton">add flat</string>
+    <string name="deleteFlatButton">delete flat</string>
+</resources>
