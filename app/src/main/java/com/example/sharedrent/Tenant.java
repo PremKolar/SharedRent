@@ -70,7 +70,6 @@ public class Tenant {
         return String.format("%.1f%%", 100*getRelativeLivingAreaFraction());
     }
 
-
     private double getLivingAreaFraction() {
         return livingArea.divideBy(flat.getLivingArea());
     }
