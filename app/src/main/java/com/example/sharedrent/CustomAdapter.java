@@ -20,42 +20,26 @@ import java.util.List;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantViewHolder> {
 
-//    private String[] localDataSet;
     private List<Tenant> localDataSet;
-//    private View thisView;
 
     public static class TenantViewHolder extends RecyclerView.ViewHolder {
-        // If your layout file is something_awesome.xml then your binding class will be SomethingAwesomeBinding
-        // Since our layout file is item_movie.xml, our auto generated binding class is ItemMovieBinding
+
         private TextRowItemBinding binding;
 
-        //Define a constructor taking a ItemMovieBinding as its parameter
         public TenantViewHolder(TextRowItemBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
 
-        /**
-         * We will use this function to bind instance of Movie to the row
-         */
         public void bind(Tenant tenant) {
             binding.setTenant(tenant);
             binding.executePendingBindings();
-
         }
     }
 
-
-    /**
-     * Initialize the dataset of the Adapter.
-     *
-     * @param dataSet String[] containing the data to populate views to be used
-     * by RecyclerView.
-     */
     public CustomAdapter(List<Tenant> dataSet) {
         localDataSet = dataSet;
     }
-
 
     @Override
     public void onBindViewHolder(@NonNull TenantViewHolder holder, int position) {
@@ -63,13 +47,11 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
         holder.bind(tenant);
     }
 
-    // Create new views (invoked by the layout manager)
     public TenantViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         TextRowItemBinding itemBinding = TextRowItemBinding.inflate(layoutInflater, parent, false);
         TenantViewHolder holder = new TenantViewHolder(itemBinding);
-
 
         itemBinding.editableIncome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,8 +80,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
         return localDataSet == null ? 0 : localDataSet.size();
     }
 
-
-
     public void setData(List<Tenant> data){
         if (data != null) {
             this.localDataSet = data;
@@ -108,5 +88,4 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
         }
         notifyDataSetChanged();
     }
-
 }
