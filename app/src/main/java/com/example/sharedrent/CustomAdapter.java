@@ -14,6 +14,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.sharedrent.database.SharedRentViewModel;
 import com.example.sharedrent.databinding.TextRowItemBinding;
 
 import java.util.List;
@@ -21,6 +22,12 @@ import java.util.List;
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantViewHolder> {
 
     private List<Tenant> localDataSet;
+    private SharedRentViewModel mSharedRentViewModel;
+
+    // i need this in the callbacks to update the tenant tables on the DB
+    public void setSharedViewModel(SharedRentViewModel mSharedRentViewModel) {
+        this.mSharedRentViewModel = mSharedRentViewModel;
+    }
 
     public static class TenantViewHolder extends RecyclerView.ViewHolder {
 
@@ -58,6 +65,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
             public void onClick(View v) {
                 Tenant tenant = localDataSet.get(holder.getLayoutPosition());
                 tenant.setIncomeByString(((AppCompatEditText) v).getText().toString());
+                mSharedRentViewModel.updateTenant(tenant);
                 notifyDataSetChanged();
             }
         });
@@ -67,6 +75,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
             public void onClick(View v) {
                 Tenant tenant = localDataSet.get(holder.getLayoutPosition());
                 tenant.setLivingAreaByString(((AppCompatEditText) v).getText().toString());
+                mSharedRentViewModel.updateTenant(tenant);
                 notifyDataSetChanged();
             }
         });

@@ -50,7 +50,7 @@ public class RecyclerViewFragment extends Fragment {
     protected RecyclerView mRecyclerView;
     protected CustomAdapter mAdapter;
     protected RecyclerView.LayoutManager mLayoutManager;
-    protected List<Tenant> mDataset;
+    protected List<Tenant> mTenantsDataset;
     private SharedRentViewModel mSharedRentViewModel;
     private View rootView;
     private int _callbackcheck = 0;
@@ -82,8 +82,6 @@ public class RecyclerViewFragment extends Fragment {
 
         setHasOptionsMenu(true);
 
-
-
         mSharedRentViewModel.getAllTenantsRaw.observe(this,tenantObserver);
     }
 
@@ -96,15 +94,15 @@ public class RecyclerViewFragment extends Fragment {
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         setRecyclerViewLayoutManager();
-        mAdapter = new CustomAdapter(mDataset);
-
+        mAdapter = new CustomAdapter(mTenantsDataset);
+        mAdapter.setSharedViewModel(mSharedRentViewModel);
         mRecyclerView.setAdapter(mAdapter);
 
-        FloatingActionButton fab = (FloatingActionButton) rootView.findViewById(R.id.addTenantFloatingButton);
-        fab.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton addTenantButton = (FloatingActionButton) rootView.findViewById(R.id.addTenantFloatingButton);
+        addTenantButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getNameForNewTenant();
+                getNameForAndAddNewTenant();
             }
         });
 
@@ -150,7 +148,7 @@ public class RecyclerViewFragment extends Fragment {
         return rootView;
     }
 
-    private void getNameForNewTenant() {
+    private void getNameForAndAddNewTenant() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         builder.setTitle("Name of new tenant");
         final EditText input = new EditText(getContext());
@@ -184,8 +182,8 @@ public class RecyclerViewFragment extends Fragment {
     }
 
     private void setReyclerView() {
-        mDataset = mSharedRentViewModel.makeTenantList();
-        mAdapter.setData(mDataset);
+        mTenantsDataset = mSharedRentViewModel.makeTenantList();
+        mAdapter.setData(mTenantsDataset);
     }
 
     private void setFlatRow() {

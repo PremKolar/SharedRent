@@ -5,6 +5,7 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import com.example.sharedrent.Flat;
 import com.example.sharedrent.Tenant;
@@ -27,5 +28,11 @@ public interface SharedRentDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertFlat(Flat flat);
+
+    @Update
+    void update(Tenant tenant);
+
+    @Update
+    void update(Flat flat);
 
 }

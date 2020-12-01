@@ -34,7 +34,7 @@ public abstract class DataBase extends RoomDatabase {
             public void onCreate (SupportSQLiteDatabase db) {
                 super.onCreate(db);
                 Flat flat = new Flat("Flat 1");
-                flat.setRent(new Money(1000));
+                flat.setRent(new Money(100000));
                 flat.setLivingArea(new LivingArea(80));
                 Tenant joe = new Tenant("Joe");
                 flat.moveInTenant(joe);

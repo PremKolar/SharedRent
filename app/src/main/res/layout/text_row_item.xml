@@ -71,8 +71,8 @@
                     android:text="@{tenant.getIncomeFormatted()}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
-                    android:cursorVisible="false"
                     android:background="@null"
+                    android:inputType="number"
                     />
                 <EditText
                     android:id="@+id/editable_area"
@@ -80,6 +80,7 @@
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     android:background="@null"
+                    android:inputType="number"
                     />
                 <TextView
                     android:text="@{tenant.getRelativeLivingAreaPercentFormatted()}"

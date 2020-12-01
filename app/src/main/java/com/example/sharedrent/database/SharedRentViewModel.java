@@ -38,14 +38,6 @@ public class SharedRentViewModel extends ViewModel {
         currentFlat = getAllFlats.getValue().get(0);
     }
 
-//    private void buildDummyFlat() {
-//        Flat flat = new Flat();
-//        Tenant joe = new Tenant("Joe");
-//        flat.moveInTenant(joe);
-//        insertTenant(joe);
-//        insertFlat(flat);
-//    }
-
     private void insertFlat(Flat flat) {
         AsyncTask.execute(()->dao.insertFlat(flat));
     }
@@ -83,10 +75,6 @@ public class SharedRentViewModel extends ViewModel {
             }
         }
         return tenants;
-    }
-
-    public void addDummyTenant() {
-        addTenantWithName("New Tenant");
     }
 
     public List<Tenant> makeTenantList() {
@@ -158,6 +146,10 @@ public class SharedRentViewModel extends ViewModel {
         }catch(Exception e){
             return false;
         }
+    }
+
+    public void updateTenant(Tenant tenant) {
+        AsyncTask.execute(()->dao.update(tenant));
     }
 }
 
