@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModel;
 import com.example.sharedrent.Flat;
 import com.example.sharedrent.LivingArea;
 import com.example.sharedrent.Money;
+import com.example.sharedrent.ShareMode;
 import com.example.sharedrent.Tenant;
 
 import org.jetbrains.annotations.Nullable;
@@ -85,8 +86,24 @@ public class SharedRentViewModel extends ViewModel {
         AsyncTask.execute(()->dao.update(flat));
     }
 
-    private void deleteTenant(Tenant tenant) {
-        AsyncTask.execute(()->dao.deleteTenant(tenant));
+    public void deleteTenant(Tenant tenant) {
+        AsyncTask.execute(()->deleteTenantAsync(tenant));
+    }
+    private void deleteTenantAsync(Tenant tenant) {
+        landLord.moveTenantOut(tenant);
+        dao.deleteTenant(tenant);
+        landLord.recalc();
+    }
+
+    private void deleteFlat(Flat flat) {
+        for (Tenant tenant:landLord.getAllTenantsForFlat(flat)) {
+            deleteTenant(tenant);
+        }
+        AsyncTask.execute(()->dao.deleteFlat(flat));
+    }
+
+    public void deleteCurrentFlat(){
+        deleteFlat(currentFlat);
     }
 
     public List<Tenant> makeTenantList() {
@@ -171,6 +188,7 @@ public class SharedRentViewModel extends ViewModel {
             int cents = 100*Integer.parseInt(input.replace("€",""));
             Money newRent = new Money(cents);
             currentFlat.setRent(newRent);
+            updateFlat(currentFlat);
             return true;
         }catch(Exception e){
             return false;
@@ -182,6 +200,7 @@ public class SharedRentViewModel extends ViewModel {
             double msq = Double.parseDouble(input.replaceAll("[^\\d.]", ""));
             LivingArea newArea = new LivingArea(msq);
             currentFlat.setLivingArea(newArea);
+            updateFlat(currentFlat);
             return true;
         }catch(Exception e){
             return false;
@@ -194,5 +213,9 @@ public class SharedRentViewModel extends ViewModel {
 
     public void refresh() {
         landLord.recalc();
+    }
+
+    public void setShareMode(ShareMode mode) {
+        landLord.setShareMode(mode);
     }
 }

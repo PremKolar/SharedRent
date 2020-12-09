@@ -44,7 +44,7 @@ public abstract class DataBase extends RoomDatabase {
         };
 
         DataBase db = Room.databaseBuilder(context,
-                DataBase.class, "shared_rent_database_file").addCallback(rdc).build();
+                DataBase.class, "shared_rent_database_file").addCallback(rdc).fallbackToDestructiveMigration().build();
 
         INSTANCE = db;
         return db;

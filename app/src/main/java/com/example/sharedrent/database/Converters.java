@@ -41,7 +41,7 @@ public class Converters {
 
     @TypeConverter
     public static double fromLivingArea(LivingArea la){
-        return la == null ? null : la.getMsquared();
+        return la == null ? 0 : la.getMsquared();
     }
 
     @TypeConverter

@@ -85,6 +85,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
         return holder;
     }
 
+    public void deleteItem(int position) {
+        mSharedRentViewModel.deleteTenant(localDataSet.get(position));
+        notifyItemRemoved(position);
+    }
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {

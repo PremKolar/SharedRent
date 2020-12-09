@@ -27,46 +27,45 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0">
+            app:layout_constraintVertical_bias="0.0"
+            >
             <TableRow>
-            <TextView
-                android:id="@+id/tenantsName"
-                android:text="@{tenant.name}"
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="2dp"
-                />
+                <TextView
+                    android:id="@+id/tenantsName"
+                    android:text="@{tenant.name}"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="2dp"
+            android:textColor="@color/white"
+                    />
             </TableRow>
             <TableRow>
                 <TextView
                     android:text="@string/header_income"
                     android:textStyle="bold"
                     android:paddingHorizontal="10dp"
-                    />
+                    android:textColor="@color/white"        />
+                <TextView
+                    android:text="@string/header_room_msq"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="@color/white"/>
                 <TextView
                     android:text="@string/header_livingArea"
                     android:textStyle="bold"
                     android:paddingHorizontal="10dp"
-                    />
+                    android:textColor="@color/white"/>
                 <TextView
+                    android:textColor="@color/white"
                     android:text="@string/header_percent_livingArea"
-                    android:textStyle="bold"
-                    android:paddingHorizontal="10dp"
-                    />
-                <TextView
-                    android:text="@string/header_percent_rent"
-                    android:textStyle="bold"
-                    android:paddingHorizontal="10dp"
-                    />
-                <TextView
-                    android:text="@string/header_calculatedRent"
                     android:textStyle="bold"
                     android:paddingHorizontal="10dp"
                     />
             </TableRow>
             <TableRow>
                 <EditText
+                    android:textColor="@color/white"
                     android:id="@+id/editable_income"
                     android:text="@{tenant.getIncomeFormatted()}"
                     android:paddingHorizontal="10dp"
@@ -75,6 +74,7 @@
                     android:inputType="number"
                     />
                 <EditText
+                    android:textColor="@color/white"
                     android:id="@+id/editable_area"
                     android:text="@{tenant.getLivingAreaFormatted()}"
                     android:paddingHorizontal="10dp"
@@ -83,21 +83,62 @@
                     android:inputType="number"
                     />
                 <TextView
-                    android:text="@{tenant.relativeLivingAreaPercentFormatted}"
+                    android:textColor="@color/white"
+                    android:text="@{tenant.getEffectiveLivingArea().getFormatted()}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     />
                 <TextView
-                    android:text="@{tenant.rentPercentFormatted}"
-                    android:paddingHorizontal="10dp"
-                    android:paddingBottom="2dp"
-                    />
-                <TextView
-                    android:text="@{tenant.rentFormatted}"
+                    android:textColor="@color/white"
+                    android:text="@{tenant.getRelativeLivingAreaPercentFormatted()}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     />
             </TableRow>
+            <TableRow>
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@string/funds_after_rent"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="2dp"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@string/header_percent_rent"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="2dp"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@string/header_calculatedRent"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="2dp"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@{tenant.getFundsAfterRentFormatted()}"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="4dp"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@{tenant.rentPercentFormatted}"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="4dp"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="@{tenant.getRent().getFormatted()}"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="4dp"
+                    />
+            </TableRow>
+
         </TableLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

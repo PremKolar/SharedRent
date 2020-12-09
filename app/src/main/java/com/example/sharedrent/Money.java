@@ -28,9 +28,16 @@ public class Money {
     public Money dividedBy(double v) {
         return new Money((int) (cents/v));
     }
+    public Money times(double m) {
+        return dividedBy(1/m);
+    }
+
 
     public Object asDouble() {
         return ((double)cents)/100;
     }
 
+    public Money minus(Money m2) {
+        return new Money(cents - m2.cents);
+    }
 }

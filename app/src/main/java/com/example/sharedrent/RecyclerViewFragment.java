@@ -16,8 +16,12 @@
 
 package com.example.sharedrent;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.LayoutInflater;
@@ -26,16 +30,23 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -95,6 +106,8 @@ public class RecyclerViewFragment extends Fragment {
         mAdapter = new CustomAdapter(mTenantsDataset);
         mAdapter.setSharedViewModel(mSharedRentViewModel);
         mRecyclerView.setAdapter(mAdapter);
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteCallback(mAdapter));
+        itemTouchHelper.attachToRecyclerView(mRecyclerView);
 
         FloatingActionButton addTenantButton = (FloatingActionButton) rootView.findViewById(R.id.addTenantFloatingButton);
         addTenantButton.setOnClickListener(new View.OnClickListener() {
@@ -109,6 +122,11 @@ public class RecyclerViewFragment extends Fragment {
         {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
             {
+                try {
+                    ((TextView) parent.getChildAt(0)).setTextColor(getResources().getColor(R.color.white));
+                }catch (Exception e){
+
+                }
                 String selection = parent.getItemAtPosition(position).toString();
                 mSharedRentViewModel.setCurrentFlatByName(selection);
                 if(++_callbackcheck > 1) {
@@ -127,7 +145,7 @@ public class RecyclerViewFragment extends Fragment {
                 if(mSharedRentViewModel.tryToSetCurrentRentByUserInput(input)){
                     // failed
                 }
-//                initDataset();
+                initDataset();
             }
         });
 
@@ -139,10 +157,10 @@ public class RecyclerViewFragment extends Fragment {
                 if(mSharedRentViewModel.tryToSetCurrentLivingAreaByUserInput(input)){
                     // failed
                 }
-//                initDataset();
+                initDataset();
             }
         });
-
+        goRedMode();
         return rootView;
     }
 
@@ -227,10 +245,64 @@ public class RecyclerViewFragment extends Fragment {
         switch (item.getItemId()){
             case R.id.add_new_flat:
                 addNewFlat();
-            default:
-                // TODO: 27.11.20
+                break;
+            case R.id.delete_this_flat:
+                deleteCurrentFlat();
+                break;
+            case R.id.equal_residual_fund_menu_item: // Communism
+                goRedMode();
+                break;
+            case R.id.proportional_share_menu_item: // Socialism
+                goPurpleMode();
+                break;
+            case R.id.area_only_share_menu_item: // Capitalism
+                goGreenMode();
+                break;
+
+
         }
         return true;
+    }
+
+    private void goColorMode(int colorid) {
+        AppCompatActivity activity = (AppCompatActivity) getActivity();
+        ActionBar actionBar = activity.getSupportActionBar();
+        Window window = activity.getWindow();
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.setStatusBarColor(activity.getResources().getColor(colorid));
+        }
+        ColorDrawable colorDrawable = new ColorDrawable(getResources().getColor(colorid));
+        actionBar.setBackgroundDrawable(colorDrawable);
+    }
+
+    private void goRedMode() {
+        setShareMode(ShareMode.EQUALRESIDUALFUNDS);
+        goColorMode(R.color.red);
+    }
+
+    private void goPurpleMode() {
+        setShareMode(ShareMode.PROPORTIONAL);
+        goColorMode(R.color.purple);
+    }
+
+    private void goGreenMode() {
+        setShareMode(ShareMode.AREAONLY);
+        goColorMode(R.color.green);
+    }
+
+
+
+
+
+    private void setShareMode(ShareMode equalresidualfunds) {
+        mSharedRentViewModel.setShareMode(equalresidualfunds);
+        initDataset();
+    }
+
+    private void deleteCurrentFlat() {
+        mSharedRentViewModel.deleteCurrentFlat();
     }
 
 
@@ -246,7 +318,6 @@ public class RecyclerViewFragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 String nameForNewFlat = input.getText().toString();
                 mSharedRentViewModel.addFlatWithName(nameForNewFlat);
-//                initDataset();
             }
         });
         builder.setNegativeButton("cancel", new DialogInterface.OnClickListener() {

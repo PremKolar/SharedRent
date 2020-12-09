@@ -38,4 +38,7 @@ public interface SharedRentDao {
 
     @Delete
     void deleteTenant(Tenant tenant);
+
+    @Delete
+    void deleteFlat(Flat flat);
 }

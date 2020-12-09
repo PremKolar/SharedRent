@@ -40,7 +40,11 @@ public class Flat {
     }
 
     public void moveOutTenant(Tenant tenant){
-        tenants_names.remove(tenant.getName());
+        moveOutTenantByName(tenant.getName());
+    }
+
+    public void moveOutTenantByName(String tenantsName) {
+        tenants_names.remove(tenantsName);
     }
 
     public boolean tenantLivesHere(Tenant t) {
@@ -63,4 +67,5 @@ public class Flat {
     public int getNumberOfTenants() {
         return tenants_names.size();
     }
+
 }

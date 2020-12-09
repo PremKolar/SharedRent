@@ -4,23 +4,22 @@ import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.Locale;
+import com.example.sharedrent.math.RentMathTools;
 
 @Entity(tableName = "tenants")
 public class Tenant {
+
+    // for UI
+    public double relativeLivingAreaRatio;
+    public String rentPercentFormatted;
+
     @PrimaryKey @NonNull
     public String name = "";
     public Money income = new Money(0);
     public LivingArea livingArea = new LivingArea(1);
-
-    public String relativeLivingAreaPercentFormatted;
-    public String rentPercentFormatted;
-    public String rentFormatted;
-    private Money equalResidueRent;
+    private Money rent;
     private double relativeLivingAreaFraction = 1;
+    private LivingArea effectiveLivingArea;
 
     public Tenant(String name) {
         this.name = name;
@@ -60,26 +59,12 @@ public class Tenant {
     }
 
     public void setIncomeByString(String s) {
-        try {
-            Money newIncome = new Money(100*parse(s, Locale.FRANCE));
-            setIncome(newIncome);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-    }
-
-    // TODO: 28.11.20 to tools class
-    private int parse(final String amount, final Locale locale) throws ParseException {
-        final NumberFormat format = NumberFormat.getNumberInstance(locale);
-        if (format instanceof DecimalFormat) {
-            ((DecimalFormat) format).setParseBigDecimal(true);
-        }
-        return format.parse(amount.replaceAll("[^\\d.,]","")).intValue();
+        Money newIncome = new Money((int) (RentMathTools.cleanUpMoneyString(s)*100));
+        setIncome(newIncome);
     }
 
     private void setIncome(Money m) {
         this.income = m;
-
     }
 
     public void setLivingAreaByString(String area) {
@@ -92,20 +77,48 @@ public class Tenant {
         livingArea = newArea;
     }
 
-    public void setEqualResidueRent(Money money) {
-        equalResidueRent = money;
-    }
-
-    public Money getEqualResidueRent() {
-        return equalResidueRent;
-    }
-
-    // to be set by landlord
-    public void setRelativeLivingAreaFraction(double rlaf) {
-        relativeLivingAreaFraction = rlaf;
+    public Money getRent() {
+        return rent;
     }
 
     public double getRelativeLivingAreaFraction() {
         return relativeLivingAreaFraction;
     }
+
+    public Money getFundsAfterRent(){
+        return income.minus(rent);
+    }
+    public String getFundsAfterRentFormatted(){
+        return getFundsAfterRent().getFormatted();
+    }
+
+    public LivingArea getEffectiveLivingArea(){
+        return effectiveLivingArea;
+    }
+
+
+    public String getRelativeLivingAreaPercentFormatted(){
+        return String.format("%.1f%%", 100* relativeLivingAreaRatio);
+    }
+
+
+
+    // TO BE SET BY LANDLORD -----------------------------------------------------------------------
+
+    public void setRent(Money money) {
+        rent = money;
+    }
+
+    public void setRelativeLivingAreaFraction(double rlaf) {
+        relativeLivingAreaFraction = rlaf;
+    }
+    public void setRelativeLivingAreaRatio(double livingAreaRatio) {
+        relativeLivingAreaRatio = livingAreaRatio;
+    }
+    public void setEffectiveLivingArea(LivingArea totalLivingArea) {
+        effectiveLivingArea = totalLivingArea;
+    }
+
+    // ---------------------------------------------------------------------------------------------
+
 }
