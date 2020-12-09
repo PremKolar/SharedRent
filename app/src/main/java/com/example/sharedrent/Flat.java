@@ -14,8 +14,6 @@ public class Flat {
     public Rent rent = new Rent(0);
     public LivingArea livingArea = new LivingArea(0);
     public HashSet<String> tenants_names = new HashSet<>();
-    @Ignore
-    public HashSet<Tenant> tenants = new HashSet<>();
 
     public Flat(String name){
         this.name = name;
@@ -39,27 +37,16 @@ public class Flat {
 
     public void moveInTenant(Tenant tenant){
         tenants_names.add(tenant.getName());
-        tenants.add(tenant);
-        tenant.setFlat(this);
     }
 
     public void moveOutTenant(Tenant tenant){
-        tenant.unsetFlat();
         tenants_names.remove(tenant.getName());
-        tenants.remove(tenant);
     }
 
     public boolean tenantLivesHere(Tenant t) {
         return tenants_names.contains(t.getName());
     }
 
-    public Money totalIncome() {
-        Money total = new Money(0);
-        for (Tenant t:tenants) {
-              total.add(t.income);
-        }
-        return total;
-    }
 
     public String getRentFormatted() {
         return getRent().getFormatted();
@@ -73,11 +60,7 @@ public class Flat {
         livingArea = newArea;
     }
 
-    public LivingArea getAllTenantsLivingArea() {
-        LivingArea total = new LivingArea(0);
-        for (Tenant t:tenants) {
-            total.add(t.livingArea);
-        }
-        return total;
+    public int getNumberOfTenants() {
+        return tenants_names.size();
     }
 }

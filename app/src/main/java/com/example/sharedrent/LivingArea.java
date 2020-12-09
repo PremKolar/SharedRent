@@ -22,4 +22,16 @@ public class LivingArea {
     public void add(LivingArea summand) {
         msquared += summand.msquared;
     }
+
+    public LivingArea divideBy(double divisor) {
+        return new LivingArea(msquared/divisor);
+    }
+
+    public LivingArea minus(LivingArea otherLivingArea) {
+        return new LivingArea(msquared - otherLivingArea.msquared);
+    }
+
+    public LivingArea plus(LivingArea otherLivingArea) {
+        return new LivingArea(msquared + otherLivingArea.msquared);
+    }
 }

@@ -63,14 +63,13 @@ public class RecyclerViewFragment extends Fragment {
         mSharedRentViewModel = new ViewModelProvider(this).get(SharedRentViewModel.class);
         mSharedRentViewModel.init(getActivity().getApplication());
 
-
         final Observer<List<Flat>> flatObserver = new Observer<List<Flat>>() {
             @Override
             public void onChanged(@Nullable final List<Flat> newList) {
+                mSharedRentViewModel.tryToSetCurrentFlat();
                 initDataset();
             }
         };
-
         mSharedRentViewModel.getAllFlats.observe(this,flatObserver);
 
         final Observer<List<Tenant>> tenantObserver = new Observer<List<Tenant>>() {
@@ -79,10 +78,9 @@ public class RecyclerViewFragment extends Fragment {
                 initDataset();
             }
         };
+        mSharedRentViewModel.getAllTenantsRaw.observe(this,tenantObserver);
 
         setHasOptionsMenu(true);
-
-        mSharedRentViewModel.getAllTenantsRaw.observe(this,tenantObserver);
     }
 
 
@@ -129,7 +127,7 @@ public class RecyclerViewFragment extends Fragment {
                 if(mSharedRentViewModel.tryToSetCurrentRentByUserInput(input)){
                     // failed
                 }
-                initDataset();
+//                initDataset();
             }
         });
 
@@ -141,7 +139,7 @@ public class RecyclerViewFragment extends Fragment {
                 if(mSharedRentViewModel.tryToSetCurrentLivingAreaByUserInput(input)){
                     // failed
                 }
-                initDataset();
+//                initDataset();
             }
         });
 
@@ -159,7 +157,7 @@ public class RecyclerViewFragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 String nameForNewTenant = input.getText().toString();
                 mSharedRentViewModel.addTenantWithName(nameForNewTenant);
-                initDataset();
+//                initDataset();
             }
         });
         builder.setNegativeButton("cancel", new DialogInterface.OnClickListener() {
@@ -206,7 +204,7 @@ public class RecyclerViewFragment extends Fragment {
 
     private void setSpinnerToCurrentFlat() {
         Spinner spinner = rootView.findViewById(R.id.spinnerForFlats);
-        Flat currentFlat = mSharedRentViewModel.currentFlat;
+        Flat currentFlat = mSharedRentViewModel.getCurrentFlat();
         ArrayList<String> labels = mSharedRentViewModel.getAllFlatsNames();
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, labels);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -248,7 +246,7 @@ public class RecyclerViewFragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 String nameForNewFlat = input.getText().toString();
                 mSharedRentViewModel.addFlatWithName(nameForNewFlat);
-                initDataset();
+//                initDataset();
             }
         });
         builder.setNegativeButton("cancel", new DialogInterface.OnClickListener() {

@@ -11,6 +11,8 @@ import com.example.sharedrent.LivingArea;
 import com.example.sharedrent.Money;
 import com.example.sharedrent.Tenant;
 
+import org.jetbrains.annotations.Nullable;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,75 +23,117 @@ public class SharedRentViewModel extends ViewModel {
     //    private final SharedRentRepository repo;
     public LiveData<List<Tenant>> getAllTenantsRaw;
     public LiveData<List<Flat>> getAllFlats;
-    public Flat currentFlat;
+    private Flat currentFlat;
+    private LandLord landLord;
 
     public void init(Application application){
         app = application;
         dao = DataBase.getDataBase(application).sharedRentDao();
-//        repo = new SharedRentRepository(dao);
         getAllFlats = dao.getAllFlats();
         getAllTenantsRaw = dao.getAllTenants();
-        tryToSetCurrentFlat();
-//        if (getAllFlats.getValue() == null || getAllFlats.getValue().isEmpty()) buildDummyFlat();
+        landLord = new LandLord(getAllFlats,getAllTenantsRaw);
+
+//        AsyncTask.execute(()-> {
+//            try {
+//                cleanUpDataBase();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+
+
+
+
     }
 
-    private void tryToSetCurrentFlat() {
-        if (getAllFlats.getValue() == null || getAllFlats.getValue().size()<1) return;
-        currentFlat = getAllFlats.getValue().get(0);
+    private void cleanUpDataBase() throws InterruptedException {
+        while (getAllTenantsRaw.getValue() == null || getAllFlats.getValue() == null){
+            Thread.sleep(1);
+        }
+
+        for (Tenant tenant: getAllTenantsRaw.getValue()) {
+            if (landLord.getFlatForTenant(tenant) == null){
+                deleteTenant(tenant);
+            }
+        }
     }
+
+
+    public Flat getCurrentFlat() {
+        return currentFlat;
+    }
+
+    public void tryToSetCurrentFlat() {
+        if (getAllFlats.getValue() == null || getAllFlats.getValue().size()<1) return;
+        setCurrentFlat(getAllFlats.getValue().get(0));
+    }
+
+    public void setCurrentFlat(Flat flat) {
+        currentFlat = flat;
+    }
+
 
     private void insertFlat(Flat flat) {
         AsyncTask.execute(()->dao.insertFlat(flat));
     }
 
-    public void insertTenant(Tenant tenant){
+    private void insertTenant(Tenant tenant){
         AsyncTask.execute(()->dao.insertTenant(tenant));
     }
 
-    public List<Tenant> getAllTenants(){
-        List<Tenant> tenants = getAllTenantsRaw.getValue();
-        if (tenants==null) return null;
-        for (Tenant t: tenants) {
-            Flat flat = getFlatForTenant(t);
-            t.setFlat(flat);
-        }
-        return tenants;
+    private void updateFlat(Flat flat) {
+        AsyncTask.execute(()->dao.update(flat));
     }
 
-    private Flat getFlatForTenant(Tenant t) {
-        for (Flat flat: getAllFlats.getValue()) {
-            if (flat.tenantLivesHere(t)){
-                return flat;
-            }
-        }
-        return null;
-    }
-
-    public List<Tenant> getAllTenantsForFlat(Flat flat) {
-        List<Tenant> tenants = new ArrayList<Tenant>();
-        if (getAllTenants() == null) return null;
-        for (Tenant tenant:getAllTenants()) {
-            if (flat.tenantLivesHere(tenant)) {
-                tenants.add(tenant);
-                flat.moveInTenant(tenant); // make sure tenant objects are known to flat
-            }
-        }
-        return tenants;
+    private void deleteTenant(Tenant tenant) {
+        AsyncTask.execute(()->dao.deleteTenant(tenant));
     }
 
     public List<Tenant> makeTenantList() {
         if (currentFlat == null) tryToSetCurrentFlat();
         if (currentFlat == null) return null;
-        return getAllTenantsForFlat(currentFlat);
+        landLord.recalc();
+        return landLord.getAllTenantsForFlat(currentFlat);
+    }
+
+    private boolean flatIsReady(Flat flat) {
+        if (flat == null) return false;
+        if (anyOfTheFlatsTenantsIsNull(flat)) return false;
+        return true;
+    }
+
+    private boolean tenantIsReady(Tenant tenant) {
+        Flat flat = landLord.getFlatForTenant(tenant);
+        if (flat == null) return false;
+        boolean ok = flat != null;
+        if (anyOfTheFlatsTenantsIsNull(flat)) return false;
+        return ok;
+    }
+
+
+    boolean anyOfTheFlatsTenantsIsNull(Flat flat) {
+        for (String tenantName:flat.tenants_names) {
+            if (landLord.findTenantByName(tenantName) == null) return true;
+        }
+        return false;
     }
 
     public void addTenantWithName(String nameForNewTenant) {
-        if (currentFlat == null) tryToSetCurrentFlat();
-        if (currentFlat == null) return;
-        Tenant dummy = new Tenant(nameForNewTenant);
-        currentFlat.moveInTenant(dummy);
-        insertTenant(dummy);
+        Tenant newTenant = createNewTenantFromName(nameForNewTenant);
+        if (newTenant == null) return;
+        insertTenant(newTenant);
+        updateFlat(currentFlat);
     }
+
+    @Nullable
+    private Tenant createNewTenantFromName(String nameForNewTenant) {
+        if (currentFlat == null) tryToSetCurrentFlat();
+        if (currentFlat == null) return null;
+        Tenant dummy = new Tenant(nameForNewTenant);
+        landLord.moveNewTenantIntoFlat(currentFlat,dummy);
+        return dummy;
+    }
+
 
     public void addFlatWithName(String name) {
         Flat flat = new Flat(name);
@@ -98,11 +142,7 @@ public class SharedRentViewModel extends ViewModel {
     }
 
     public ArrayList<String> getAllFlatsNames() {
-        ArrayList<String> out = new ArrayList();
-        for (Flat flat: getAllFlats.getValue()) {
-            out.add(flat.name);
-        }
-        return out;
+        return landLord.getAllFlatsNames();
     }
 
     public String getCurrentRentFormatted() {
@@ -151,5 +191,8 @@ public class SharedRentViewModel extends ViewModel {
     public void updateTenant(Tenant tenant) {
         AsyncTask.execute(()->dao.update(tenant));
     }
-}
 
+    public void refresh() {
+        landLord.recalc();
+    }
+}

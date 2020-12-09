@@ -66,6 +66,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
                 Tenant tenant = localDataSet.get(holder.getLayoutPosition());
                 tenant.setIncomeByString(((AppCompatEditText) v).getText().toString());
                 mSharedRentViewModel.updateTenant(tenant);
+                mSharedRentViewModel.refresh();
                 notifyDataSetChanged();
             }
         });
@@ -76,6 +77,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.TenantView
                 Tenant tenant = localDataSet.get(holder.getLayoutPosition());
                 tenant.setLivingAreaByString(((AppCompatEditText) v).getText().toString());
                 mSharedRentViewModel.updateTenant(tenant);
+                mSharedRentViewModel.refresh();
                 notifyDataSetChanged();
             }
         });

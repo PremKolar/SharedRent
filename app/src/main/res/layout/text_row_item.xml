@@ -83,17 +83,17 @@
                     android:inputType="number"
                     />
                 <TextView
-                    android:text="@{tenant.getRelativeLivingAreaPercentFormatted()}"
+                    android:text="@{tenant.relativeLivingAreaPercentFormatted}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     />
                 <TextView
-                    android:text="@{tenant.getRentPercentFormatted()}"
+                    android:text="@{tenant.rentPercentFormatted}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     />
                 <TextView
-                    android:text="@{tenant.getRentFormatted()}"
+                    android:text="@{tenant.rentFormatted}"
                     android:paddingHorizontal="10dp"
                     android:paddingBottom="2dp"
                     />

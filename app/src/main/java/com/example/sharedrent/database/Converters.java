@@ -30,7 +30,7 @@ public class Converters {
 
     @TypeConverter
     public static int fromMoney(Money money) {
-        return money == null ? null : money.getCents();
+        return money == null ? 0 : money.getCents();
     }
 
 
