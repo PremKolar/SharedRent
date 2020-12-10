@@ -68,8 +68,7 @@ public class Tenant {
     }
 
     public void setLivingAreaByString(String area) {
-        double darea = Double.parseDouble(area.replaceAll("[^\\d.]", ""));
-        LivingArea newArea = new LivingArea(darea);
+        LivingArea newArea = new LivingArea(RentMathTools.cleanUpAreaString(area));
         setLivingArea(newArea);
     }
 

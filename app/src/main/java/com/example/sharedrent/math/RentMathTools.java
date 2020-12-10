@@ -20,6 +20,11 @@ public class RentMathTools {
         return res;
     }
 
+    public static double cleanUpAreaString(String s) {
+        double res =  Double.parseDouble(s.replaceAll("[^0-9\\,\\.]","").replace(",","."));
+        return res;
+    }
+
     static double[] oneDimIntToDouble(int[] m) {
         double[] res = new double[m.length];
         for (int j = 0; j < m.length; j++) {
@@ -35,4 +40,5 @@ public class RentMathTools {
         }
         return res;
     }
+
 }

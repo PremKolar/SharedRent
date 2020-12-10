@@ -16,10 +16,8 @@
 
 package com.example.sharedrent;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -40,7 +38,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -277,17 +274,28 @@ public class RecyclerViewFragment extends Fragment {
         actionBar.setBackgroundDrawable(colorDrawable);
     }
 
+    private void setTitle(String s) {
+        getActivity().setTitle(s);
+    }
+
+    private void setTitleByResource(int p) {
+        setTitle(getResources().getString(p));
+    }
+
     private void goRedMode() {
+        setTitleByResource(R.string.red_title);
         setShareMode(ShareMode.EQUALRESIDUALFUNDS);
         goColorMode(R.color.red);
     }
 
     private void goPurpleMode() {
+        setTitleByResource(R.string.purple_title);
         setShareMode(ShareMode.PROPORTIONAL);
         goColorMode(R.color.purple);
     }
 
     private void goGreenMode() {
+        setTitleByResource(R.string.green_title);
         setShareMode(ShareMode.AREAONLY);
         goColorMode(R.color.green);
     }

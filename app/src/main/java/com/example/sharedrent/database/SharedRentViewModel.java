@@ -11,6 +11,7 @@ import com.example.sharedrent.LivingArea;
 import com.example.sharedrent.Money;
 import com.example.sharedrent.ShareMode;
 import com.example.sharedrent.Tenant;
+import com.example.sharedrent.math.RentMathTools;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -197,8 +198,7 @@ public class SharedRentViewModel extends ViewModel {
 
     public boolean tryToSetCurrentLivingAreaByUserInput(String input) {
         try {
-            double msq = Double.parseDouble(input.replaceAll("[^\\d.]", ""));
-            LivingArea newArea = new LivingArea(msq);
+            LivingArea newArea = new LivingArea(RentMathTools.cleanUpAreaString(input));
             currentFlat.setLivingArea(newArea);
             updateFlat(currentFlat);
             return true;
