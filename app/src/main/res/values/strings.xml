@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SharedRent</string>
+    <string name="header_tenant_name">Tenant</string>
+    <string name="header_income">income</string>
+    <string name="header_livingArea">m²</string>
+    <string name="header_percent_livingArea">% m²</string>
+    <string name="header_percent_rent">% rent</string>
+    <string name="header_calculatedRent">Rent</string>
+    <string name="addFlatButton">add flat</string>
+    <string name="deleteFlatButton">delete flat</string>
+    <string name="funds_after_rent">funds after rent</string>
+    <string name="header_room_msq">room-size</string>
+    <string name="share_modes">share-mode</string>
+    <string name="equal_residual_fund_menu_item">Communism</string>
+    <string name="proportional_share_menu_item">Socialism</string>
+    <string name="area_only_share_menu_item">Capitalism</string>
+</resources>

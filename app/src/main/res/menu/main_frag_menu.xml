@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--    <item-->
+    <!--        android:id="@+id/menu_delete_session"-->
+    <!--        android:icon="@drawable/ic_delete"-->
+    <!--        android:iconTint="@color/white"-->
+    <!--        android:title="@string/delete_session"-->
+    <!--        android:visible="true"-->
+    <!--        app:showAsAction="ifRoom" />-->
+    <group android:id="@+id/options_menu">
+        <item android:id="@+id/add_new_flat"
+            android:title="@string/addFlatButton" />
+        <item android:id="@+id/delete_this_flat"
+            android:title="@string/deleteFlatButton" />
+        <item android:id="@+id/share_mode_menu"
+            android:title="@string/share_modes" >
+            <menu>
+                <item
+                    android:id="@+id/equal_residual_fund_menu_item"
+                    android:title="@string/equal_residual_fund_menu_item">
+                </item>
+                <item
+                    android:id="@+id/proportional_share_menu_item"
+                    android:title="@string/proportional_share_menu_item">
+                </item>
+                 <item
+                    android:id="@+id/area_only_share_menu_item"
+                    android:title="@string/area_only_share_menu_item">
+                </item>
+
+            </menu>
+        </item>
+
+    </group>
+</menu>
