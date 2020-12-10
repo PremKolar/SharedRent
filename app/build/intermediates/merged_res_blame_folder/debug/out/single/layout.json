@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/text_row_item.xml",
+        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/text_row_item.xml"
+    },
+    {
+        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/text_cell.xml",
+        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/text_cell.xml"
+    },
+    {
+        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/table_header.xml",
+        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/table_header.xml"
+    }
+]

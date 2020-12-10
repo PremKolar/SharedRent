@@ -1,0 +1,70 @@
+com/example/sharedrent/Flat.java
+ com.example.sharedrent.Flat
+com/example/sharedrent/databinding/TextRowItemBinding.java
+ com.example.sharedrent.databinding.TextRowItemBinding
+com/example/sharedrent/ShareMode.java
+ com.example.sharedrent.ShareMode
+com/example/sharedrent/MainActivity.java
+ com.example.sharedrent.MainActivity
+com/example/sharedrent/databinding/TextCellBinding.java
+ com.example.sharedrent.databinding.TextCellBinding
+com/example/sharedrent/CustomAdapter.java
+ com.example.sharedrent.CustomAdapter
+ com.example.sharedrent.CustomAdapter$1
+ com.example.sharedrent.CustomAdapter$2
+ com.example.sharedrent.CustomAdapter$TenantViewHolder
+com/example/sharedrent/Rent.java
+ com.example.sharedrent.Rent
+com/example/sharedrent/math/RentPerAreaSolver.java
+ com.example.sharedrent.math.RentPerAreaSolver
+com/example/sharedrent/Money.java
+ com.example.sharedrent.Money
+com/example/sharedrent/database/Converters.java
+ com.example.sharedrent.database.Converters
+ com.example.sharedrent.database.Converters$1
+com/example/sharedrent/database/DataBase.java
+ com.example.sharedrent.database.DataBase
+ com.example.sharedrent.database.DataBase$1
+com/example/sharedrent/SwipeToDeleteCallback.java
+ com.example.sharedrent.SwipeToDeleteCallback
+com/example/sharedrent/LivingArea.java
+ com.example.sharedrent.LivingArea
+com/example/sharedrent/database/LandLord.java
+ com.example.sharedrent.database.LandLord
+ com.example.sharedrent.database.LandLord$1
+com/example/sharedrent/Tenant.java
+ com.example.sharedrent.Tenant
+com/example/sharedrent/math/GaussianElimination.java
+ com.example.sharedrent.math.GaussianElimination
+com/example/sharedrent/math/RentMathTools.java
+ com.example.sharedrent.math.RentMathTools
+com/example/sharedrent/database/SharedRentRepository.java
+ com.example.sharedrent.database.SharedRentRepository
+com/example/sharedrent/math/RentSolver.java
+ com.example.sharedrent.math.RentSolver
+com/example/sharedrent/math/EqualResidualRentSolver.java
+ com.example.sharedrent.math.EqualResidualRentSolver
+com/example/sharedrent/math/ProportionalRentSolver.java
+ com.example.sharedrent.math.ProportionalRentSolver
+com/example/sharedrent/DataBindingTriggerClass.java
+ com.example.sharedrent.DataBindingTriggerClass
+com/example/sharedrent/databinding/TableHeaderBinding.java
+ com.example.sharedrent.databinding.TableHeaderBinding
+com/example/sharedrent/database/SharedRentDao.java
+ com.example.sharedrent.database.SharedRentDao
+com/example/sharedrent/BuildConfig.java
+ com.example.sharedrent.BuildConfig
+com/example/sharedrent/RecyclerViewFragment.java
+ com.example.sharedrent.RecyclerViewFragment
+ com.example.sharedrent.RecyclerViewFragment$1
+ com.example.sharedrent.RecyclerViewFragment$10
+ com.example.sharedrent.RecyclerViewFragment$2
+ com.example.sharedrent.RecyclerViewFragment$3
+ com.example.sharedrent.RecyclerViewFragment$4
+ com.example.sharedrent.RecyclerViewFragment$5
+ com.example.sharedrent.RecyclerViewFragment$6
+ com.example.sharedrent.RecyclerViewFragment$7
+ com.example.sharedrent.RecyclerViewFragment$8
+ com.example.sharedrent.RecyclerViewFragment$9
+com/example/sharedrent/database/SharedRentViewModel.java
+ com.example.sharedrent.database.SharedRentViewModel
