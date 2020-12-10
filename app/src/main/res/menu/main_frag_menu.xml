@@ -17,6 +17,10 @@
             android:title="@string/share_modes" >
             <menu>
                 <item
+                    android:id="@+id/go_to_README_url"
+                    android:title="@string/go_to_README_url">
+                </item>
+                <item
                     android:id="@+id/equal_residual_fund_menu_item"
                     android:title="@string/equal_residual_fund_menu_item">
                 </item>
