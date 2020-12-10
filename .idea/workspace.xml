@@ -9,53 +9,117 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1aa8ef-157d-4555-adc6-362c3a780eb4" name="Default Changelist" comment="">
+    <list default="true" id="ba5a02ed-c406-4171-9975-af9ca9725e96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher_custom-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_apartment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_custom_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recycler_view_frag.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/text_row_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/RecyclerViewFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/Tenant.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/Tenant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/database/SharedRentViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/database/SharedRentViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/databinding/TableHeaderBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/databinding/TableHeaderBindingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/databinding/TextRowItemBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/databinding/TextRowItemBindingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/math/RentMathTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/sharedrent/math/RentMathTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ba79ad194fcfdcb2583960f7a58d2e149df58495851cbf8a2109b0b617dfa147_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/ba79ad194fcfdcb2583960f7a58d2e149df58495851cbf8a2109b0b617dfa147_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$10.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$10.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$8.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$8.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$9.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment$9.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/RecyclerViewFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/Tenant.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/Tenant.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/database/SharedRentViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/database/SharedRentViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/databinding/TableHeaderBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/databinding/TableHeaderBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/databinding/TextRowItemBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/databinding/TextRowItemBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/math/RentMathTools.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/sharedrent/math/RentMathTools.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_main_frag_menu.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_main_frag_menu.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/latex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/src/sharedRentMath.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/src/sharedRentMath.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharedRentMath.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/sharedRentMath.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
-        <option value="resourceFile" />
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3_XL_API_29]" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1keT2WzGZUcvjy5l2XQyV43iYVE" />
+  <component name="ProjectId" id="1lTkxdCHTqdUXU2xM5jFLHTVwMf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -63,51 +127,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_XL_API_29" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-09T15:22:34.878Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android-custom-view/home/niko/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_SELECTED" value="AppCompatEditText" />
-    <property name="android-custom-view/home/niko/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
-    <property name="android-custom-view/home/niko/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
-    <property name="android-custom-view/home/niko/Android/Sdk/sources/android-30/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
-    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="multi-representation-preview/home/niko/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_selected" value="Custom views" />
-    <property name="multi-representation-preview/home/niko/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
-    <property name="multi-representation-preview/home/niko/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
-    <property name="multi-representation-preview/home/niko/Android/Sdk/sources/android-30/android/widget/AdapterView.java_selected" value="Custom views" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.example.sharedrent.math" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.sharedrent.math" />
-      <recent name="com.example.sharedrent.database" />
-      <recent name="com.example.sharedrent" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.sharedrent" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="SharedRent.app" />
       <option name="DEPLOY" value="true" />
@@ -171,249 +194,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9a1aa8ef-157d-4555-adc6-362c3a780eb4" name="Default Changelist" comment="" />
-      <created>1606059850905</created>
+      <changelist id="ba5a02ed-c406-4171-9975-af9ca9725e96" name="Default Changelist" comment="" />
+      <created>1607628717537</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606059850905</updated>
+      <updated>1607628717537</updated>
     </task>
-    <task id="LOCAL-00001" summary="clean up">
-      <created>1606837652899</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606837652899</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fixed DB updates upon tenant edit">
-      <created>1606847864815</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606847864815</updated>
-    </task>
-    <task id="LOCAL-00003" summary="problems with Tenant objects not being updated...">
-      <created>1606852644322</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606852644322</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Landlord theme is successfully implemented">
-      <created>1607503987554</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1607503987555</updated>
-    </task>
-    <task id="LOCAL-00005" summary="-v1.0beta">
-      <created>1607541367794</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1607541367794</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="clean up" />
-    <MESSAGE value="fixed DB updates upon tenant edit" />
-    <MESSAGE value="problems with Tenant objects not being updated..." />
-    <MESSAGE value="Landlord theme is successfully implemented" />
-    <MESSAGE value="-v1.0beta" />
-    <option name="LAST_COMMIT_MESSAGE" value="-v1.0beta" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="171" width="954" height="525" key="#PSD" timestamp="1606068836598">
+    <state x="580" y="191" width="428" height="479" key="FileChooserDialogImpl" timestamp="1607630381742">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
-    <state x="320" y="171" width="954" height="525" key="#PSD/0.1.1600.869@0.1.1600.869" timestamp="1606068836598" />
-    <state x="608" y="144" width="378" height="578" key="#com.intellij.ide.util.MemberChooser" timestamp="1607538003215">
+    <state x="580" y="191" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1607630381742" />
+    <state x="496" y="180" width="608" height="512" key="find.popup" timestamp="1607630484465">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
-    <state x="727" y="144" width="338" height="567" key="#com.intellij.ide.util.MemberChooser/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606489129507" />
-    <state x="2472" y="197" width="378" height="578" key="#com.intellij.ide.util.MemberChooser/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606502609806" />
-    <state x="608" y="144" width="378" height="578" key="#com.intellij.ide.util.MemberChooser/0.1.1600.869@0.1.1600.869" timestamp="1607538003215" />
-    <state x="1600" y="144" width="378" height="587" key="#com.intellij.ide.util.MemberChooser/0.1.3520.869@0.1.3520.869" timestamp="1607526607164" />
-    <state x="2254" y="397" width="605" height="373" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1607520928553">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state x="2254" y="397" width="605" height="373" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.1.3520.869@0.1.3520.869" timestamp="1607520928553" />
-    <state x="312" y="1" width="969" height="864" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607251031512">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="312" y="1" width="969" height="864" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.1.1600.869@0.1.1600.869" timestamp="1607251031512" />
-    <state x="572" y="193" width="1924" height="869" key="#xdebugger.evaluate" timestamp="1607539999267">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="561" y="223" width="944" height="507" key="#xdebugger.evaluate/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606492997393" />
-    <state x="2273" y="307" width="949" height="507" key="#xdebugger.evaluate/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606505596141" />
-    <state x="572" y="193" key="#xdebugger.evaluate/0.1.1600.869@0.1.1600.869" timestamp="1607539999267" />
-    <state x="1596" y="1" width="1924" height="869" key="#xdebugger.evaluate/0.1.3520.869@0.1.3520.869" timestamp="1607528577191" />
-    <state x="1600" y="193" width="828" height="479" key="AndroidCreateResourceDirectoryDialog" timestamp="1607516201295">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state x="383" y="193" width="828" height="479" key="AndroidCreateResourceDirectoryDialog/0.1.1600.869@0.1.1600.869" timestamp="1606063454495" />
-    <state x="1600" y="193" width="828" height="479" key="AndroidCreateResourceDirectoryDialog/0.1.3520.869@0.1.3520.869" timestamp="1607516201295" />
-    <state x="383" y="193" width="828" height="479" key="AndroidCreateResourceFileDialog" timestamp="1607535496544">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="2328" y="223" key="AndroidCreateResourceFileDialog/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606495769007" />
-    <state x="383" y="193" width="828" height="479" key="AndroidCreateResourceFileDialog/0.1.1600.869@0.1.1600.869" timestamp="1607535496544" />
-    <state x="1371" y="391" key="AndroidCreateResourceFileDialog/0.1.3520.869@0.1.3520.869" timestamp="1606138504763" />
-    <state x="1600" y="245" width="352" height="375" key="AndroidCreateXmlResourceDialog" timestamp="1607527346969">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state x="2345" y="337" width="352" height="375" key="AndroidCreateXmlResourceDialog/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606495901432" />
-    <state x="621" y="245" width="352" height="375" key="AndroidCreateXmlResourceDialog/0.1.1600.869@0.1.1600.869" timestamp="1607514871984" />
-    <state x="1600" y="245" width="352" height="375" key="AndroidCreateXmlResourceDialog/0.1.3520.869@0.1.3520.869" timestamp="1607527346969" />
-    <state x="355" y="1" width="883" height="864" key="CommitChangelistDialog2" timestamp="1607541367565">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="355" y="1" width="883" height="864" key="CommitChangelistDialog2/0.1.1600.869@0.1.1600.869" timestamp="1607541367565" />
-    <state width="1230" height="485" key="DebuggerActiveHint" timestamp="1607525377104">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state width="559" height="485" key="DebuggerActiveHint/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606485866930" />
-    <state width="559" height="485" key="DebuggerActiveHint/0.1.1600.869@0.1.1600.869" timestamp="1607503266791" />
-    <state width="1230" height="485" key="DebuggerActiveHint/0.1.3520.869@0.1.3520.869" timestamp="1607525377104" />
-    <state x="583" y="194" width="428" height="479" key="FileChooserDialogImpl" timestamp="1606071446070">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="583" y="194" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1606071446070" />
-    <state width="1556" height="319" key="GridCell.Tab.0.bottom" timestamp="1607586985679">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
-    <state width="1876" height="227" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
-    <state width="1556" height="319" key="GridCell.Tab.0.bottom/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1556" height="319" key="GridCell.Tab.0.bottom/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
-    <state width="1556" height="319" key="GridCell.Tab.0.center" timestamp="1607586985679">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
-    <state width="1876" height="227" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
-    <state width="1556" height="319" key="GridCell.Tab.0.center/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1556" height="319" key="GridCell.Tab.0.center/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
-    <state width="1556" height="319" key="GridCell.Tab.0.left" timestamp="1607586985678">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078017" />
-    <state width="1876" height="227" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
-    <state width="1556" height="319" key="GridCell.Tab.0.left/0.1.1600.869@0.1.1600.869" timestamp="1607541411381" />
-    <state width="1556" height="319" key="GridCell.Tab.0.left/0.1.3520.869@0.1.3520.869" timestamp="1607586985678" />
-    <state width="1556" height="319" key="GridCell.Tab.0.right" timestamp="1607586985679">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
-    <state width="1876" height="227" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
-    <state width="1556" height="319" key="GridCell.Tab.0.right/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1556" height="319" key="GridCell.Tab.0.right/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
-    <state width="1556" height="171" key="GridCell.Tab.1.bottom" timestamp="1607541218666">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.1.bottom/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495045993" />
-    <state width="1876" height="227" key="GridCell.Tab.1.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
-    <state width="1556" height="171" key="GridCell.Tab.1.bottom/0.1.1600.869@0.1.1600.869" timestamp="1607541218666" />
-    <state width="1876" height="372" key="GridCell.Tab.1.bottom/0.1.3520.869@0.1.3520.869" timestamp="1607528490177" />
-    <state width="1556" height="171" key="GridCell.Tab.1.center" timestamp="1607541218666">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.1.center/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495045993" />
-    <state width="1876" height="227" key="GridCell.Tab.1.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
-    <state width="1556" height="171" key="GridCell.Tab.1.center/0.1.1600.869@0.1.1600.869" timestamp="1607541218666" />
-    <state width="1876" height="372" key="GridCell.Tab.1.center/0.1.3520.869@0.1.3520.869" timestamp="1607528490177" />
-    <state width="1556" height="171" key="GridCell.Tab.1.left" timestamp="1607541218665">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.1.left/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495045993" />
-    <state width="1876" height="227" key="GridCell.Tab.1.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
-    <state width="1556" height="171" key="GridCell.Tab.1.left/0.1.1600.869@0.1.1600.869" timestamp="1607541218665" />
-    <state width="1876" height="372" key="GridCell.Tab.1.left/0.1.3520.869@0.1.3520.869" timestamp="1607528490176" />
-    <state width="1556" height="171" key="GridCell.Tab.1.right" timestamp="1607541218666">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state width="1556" height="227" key="GridCell.Tab.1.right/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495045993" />
-    <state width="1876" height="227" key="GridCell.Tab.1.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
-    <state width="1556" height="171" key="GridCell.Tab.1.right/0.1.1600.869@0.1.1600.869" timestamp="1607541218666" />
-    <state width="1876" height="372" key="GridCell.Tab.1.right/0.1.3520.869@0.1.3520.869" timestamp="1607528490177" />
-    <state x="2082" y="437" width="371" height="121" key="ReplaceDuplicatesPrompt" timestamp="1607523948873">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state x="611" y="372" width="371" height="121" key="ReplaceDuplicatesPrompt/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606493763224" />
-    <state x="2082" y="437" key="ReplaceDuplicatesPrompt/0.1.3520.869@0.1.3520.869" timestamp="1607523948873" />
-    <state x="573" y="234" width="630" height="380" key="StructurePopup" timestamp="1607539812048">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="2287" y="322" width="630" height="524" key="StructurePopup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606505624749" />
-    <state x="573" y="234" width="630" height="380" key="StructurePopup/0.1.1600.869@0.1.1600.869" timestamp="1607539812048" />
-    <state x="1600" y="234" width="1386" height="380" key="StructurePopup/0.1.3520.869@0.1.3520.869" timestamp="1607518192601" />
-    <state x="395" y="172" width="804" height="523" key="Vcs.Push.Dialog.v2" timestamp="1607587098788">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="395" y="172" key="Vcs.Push.Dialog.v2/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1607587098788" />
-    <state x="395" y="172" width="804" height="523" key="Vcs.Push.Dialog.v2/0.1.1600.869@0.1.1600.869" timestamp="1607541369786" />
-    <state x="892" y="310" width="552" height="491" key="extract.method.dialog" timestamp="1607539974801">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="533" y="198" width="552" height="491" key="extract.method.dialog/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606493853577" />
-    <state x="2240" y="272" width="528" height="442" key="extract.method.dialog/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606504983325" />
-    <state x="892" y="310" width="528" height="455" key="extract.method.dialog/0.1.1600.869@0.1.1600.869" timestamp="1607539974801" />
-    <state x="1962" y="310" width="552" height="491" key="extract.method.dialog/0.1.3520.869@0.1.3520.869" timestamp="1607523928731" />
-    <state x="313" y="172" width="835" height="512" key="find.popup" timestamp="1607539041365">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="727" y="180" width="835" height="512" key="find.popup/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606492223604" />
-    <state x="2472" y="247" width="1002" height="708" key="find.popup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507383816" />
-    <state x="313" y="172" width="835" height="512" key="find.popup/0.1.1600.869@0.1.1600.869" timestamp="1607539041365" />
-    <state x="1691" y="235" width="1829" height="512" key="find.popup/0.1.3520.869@0.1.3520.869" timestamp="1607527912627" />
-    <state x="2396" y="345" width="462" height="477" key="refactoring.ChangeSignatureDialog" timestamp="1606147280666">
-      <screen x="0" y="1" width="3520" height="869" />
-    </state>
-    <state x="2396" y="345" width="462" height="477" key="refactoring.ChangeSignatureDialog/0.1.3520.869@0.1.3520.869" timestamp="1606147280666" />
-    <state x="2222" y="271" key="run.anything.popup" timestamp="1606502717604">
-      <screen x="1600" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2222" y="271" key="run.anything.popup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606502717604" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1607538883909">
-      <screen x="0" y="1" width="1600" height="869" />
-    </state>
-    <state x="727" y="187" width="673" height="678" key="search.everywhere.popup/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606494975129" />
-    <state x="2472" y="257" width="808" height="937" key="search.everywhere.popup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606308907372" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.1.1600.869@0.1.1600.869" timestamp="1607538883909" />
-    <state x="1600" y="187" width="1479" height="678" key="search.everywhere.popup/0.1.3520.869@0.1.3520.869" timestamp="1607518184741" />
+    <state x="496" y="180" width="608" height="512" key="find.popup/0.1.1600.869@0.1.1600.869" timestamp="1607630484465" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.3.0-beta01/a101ce278df2aa797691fe731b60f6cf70e10148/lifecycle-viewmodel-2.3.0-beta01-sources.jar!/androidx/lifecycle/ViewModelProvider.java</url>
-          <line>220</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/MainActivity.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/sharedrent/database/SharedRentDao_Impl.java</url>
-          <line>255</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/DataBase.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/LandLord.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo typeName="com.example.sharedrent.Tenant" fieldName="income" />

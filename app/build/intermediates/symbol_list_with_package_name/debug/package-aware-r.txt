@@ -1548,8 +1548,11 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add
+drawable ic_apartment
 drawable ic_launcher_background
+drawable ic_launcher_custom_background
 drawable ic_launcher_foreground
+drawable ic_launcher_rubel
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1586,6 +1589,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable web_hi_res_512
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1760,6 +1764,7 @@ id forever
 id frameForRecycler
 id ghost_view
 id ghost_view_holder
+id go_to_README_url
 id gone
 id graph
 id graph_wrap
@@ -2123,8 +2128,10 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu main_frag_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string READMEurl
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2169,6 +2176,8 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string funds_after_rent
+string go_to_README_url
+string green_title
 string header_calculatedRent
 string header_income
 string header_livingArea
@@ -2222,6 +2231,8 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string proportional_share_menu_item
+string purple_title
+string red_title
 string search_menu_title
 string share_modes
 string status_bar_notification_info_overflow

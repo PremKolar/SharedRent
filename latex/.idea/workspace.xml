@@ -31,40 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b78dd5b1-7663-4960-abea-634d4886415f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/ShareMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/SwipeToDeleteCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/EqualResidualRentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/ProportionalRentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/RentPerAreaSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/RentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/CustomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/CustomAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/RecyclerViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/RecyclerViewFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/Tenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/Tenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/Converters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/Converters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/LandLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/LandLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/SharedRentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/SharedRentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/SharedRentViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/database/SharedRentViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/RentMathTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/sharedrent/math/RentMathTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/recycler_view_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/recycler_view_frag.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/text_row_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/text_row_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/menu/main_frag_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/menu/main_frag_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sharedRentMath.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/sharedRentMath.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +63,9 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/src/sharedRentMath.tex</main-file>
         <output-path>$PROJECT_DIR$/..</output-path>
-        <auxil-path />
+        <auxil-path>$PROJECT_DIR$/..</auxil-path>
         <compile-twice>false</compile-twice>
         <output-format>PDF</output-format>
         <latex-distribution>TEXLIVE</latex-distribution>
@@ -136,14 +104,14 @@
       <screen x="0" y="1" width="1600" height="869" />
     </state>
     <state x="283" y="13" width="1028" height="840" key="#Project_Structure/0.1.1600.869@0.1.1600.869" timestamp="1607514460403" />
-    <state x="258" y="94" width="1084" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607514453943">
+    <state x="258" y="94" width="1084" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607628675979">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
-    <state x="258" y="94" width="1084" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1.1600.869@0.1.1600.869" timestamp="1607514453943" />
-    <state x="583" y="206" width="428" height="479" key="FileChooserDialogImpl" timestamp="1607514452079">
+    <state x="258" y="94" width="1084" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1.1600.869@0.1.1600.869" timestamp="1607628675979" />
+    <state x="583" y="206" width="428" height="479" key="FileChooserDialogImpl" timestamp="1607628671973">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
-    <state x="583" y="206" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1607514452079" />
+    <state x="583" y="206" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1607628671973" />
     <state width="1878" height="221" key="GridCell.Tab.0.bottom" timestamp="1607527068325">
       <screen x="0" y="1" width="3520" height="869" />
     </state>
