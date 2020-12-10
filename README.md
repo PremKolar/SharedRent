@@ -21,5 +21,9 @@ calculate tenants' rents using different models.
 Your room's space plus _1/n'th_ of the shared living space, where n is the total number of tenants.
 
 
+## Math
+https://github.com/PremKolar/SharedRent/blob/main/sharedRentMath.pdf
+
+
 
 
