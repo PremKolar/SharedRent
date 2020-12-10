@@ -14,4 +14,7 @@
     <string name="equal_residual_fund_menu_item">Communism</string>
     <string name="proportional_share_menu_item">Socialism</string>
     <string name="area_only_share_menu_item">Capitalism</string>
+    <string name="red_title">Communist Mode</string>
+    <string name="green_title">Capitalist Mode</string>
+    <string name="purple_title">Socialist Mode</string>
 </resources>
