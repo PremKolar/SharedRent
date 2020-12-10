@@ -18,7 +18,9 @@ package com.example.sharedrent;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.InputType;
@@ -255,10 +257,16 @@ public class RecyclerViewFragment extends Fragment {
             case R.id.area_only_share_menu_item: // Capitalism
                 goGreenMode();
                 break;
-
-
+            case R.id.go_to_README_url:
+                openREADMEurl();
+                break;
         }
         return true;
+    }
+
+    private void openREADMEurl() {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.READMEurl)));
+        startActivity(browserIntent);
     }
 
     private void goColorMode(int colorid) {

@@ -17,4 +17,6 @@
     <string name="red_title">Communist Mode</string>
     <string name="green_title">Capitalist Mode</string>
     <string name="purple_title">Socialist Mode</string>
+    <string name="go_to_README_url">Info</string>
+    <string name="READMEurl">https://github.com/PremKolar/SharedRent/blob/main/README.md</string>
 </resources>
