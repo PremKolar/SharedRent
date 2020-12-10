@@ -10,87 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a1aa8ef-157d-4555-adc6-362c3a780eb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sharedrent/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/CustomAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/Flat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/LivingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/RecyclerViewFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/ShareMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/SwipeToDeleteCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/Converters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/LandLord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/SharedRentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/SharedRentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/database/SharedRentViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/EqualResidualRentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/GaussianElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/ProportionalRentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/RentMathTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/RentPerAreaSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedrent/math/RentSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_view_frag.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/table_header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/text_cell.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/text_row_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_frag_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sharedrent/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/src/main.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/latex/src/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.synctex.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,34 +282,34 @@
       <screen x="0" y="1" width="1600" height="869" />
     </state>
     <state x="583" y="194" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1606071446070" />
-    <state width="1556" height="319" key="GridCell.Tab.0.bottom" timestamp="1607541411382">
-      <screen x="0" y="1" width="1600" height="869" />
+    <state width="1556" height="319" key="GridCell.Tab.0.bottom" timestamp="1607586985679">
+      <screen x="0" y="1" width="3520" height="869" />
     </state>
     <state width="1556" height="227" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
     <state width="1876" height="227" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590381" />
     <state width="1556" height="319" key="GridCell.Tab.0.bottom/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1876" height="372" key="GridCell.Tab.0.bottom/0.1.3520.869@0.1.3520.869" timestamp="1607528418064" />
-    <state width="1556" height="319" key="GridCell.Tab.0.center" timestamp="1607541411382">
-      <screen x="0" y="1" width="1600" height="869" />
+    <state width="1556" height="319" key="GridCell.Tab.0.bottom/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
+    <state width="1556" height="319" key="GridCell.Tab.0.center" timestamp="1607586985679">
+      <screen x="0" y="1" width="3520" height="869" />
     </state>
     <state width="1556" height="227" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
     <state width="1876" height="227" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
     <state width="1556" height="319" key="GridCell.Tab.0.center/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1876" height="372" key="GridCell.Tab.0.center/0.1.3520.869@0.1.3520.869" timestamp="1607528418063" />
-    <state width="1556" height="319" key="GridCell.Tab.0.left" timestamp="1607541411381">
-      <screen x="0" y="1" width="1600" height="869" />
+    <state width="1556" height="319" key="GridCell.Tab.0.center/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
+    <state width="1556" height="319" key="GridCell.Tab.0.left" timestamp="1607586985678">
+      <screen x="0" y="1" width="3520" height="869" />
     </state>
     <state width="1556" height="227" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078017" />
     <state width="1876" height="227" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
     <state width="1556" height="319" key="GridCell.Tab.0.left/0.1.1600.869@0.1.1600.869" timestamp="1607541411381" />
-    <state width="1876" height="372" key="GridCell.Tab.0.left/0.1.3520.869@0.1.3520.869" timestamp="1607528418063" />
-    <state width="1556" height="319" key="GridCell.Tab.0.right" timestamp="1607541411382">
-      <screen x="0" y="1" width="1600" height="869" />
+    <state width="1556" height="319" key="GridCell.Tab.0.left/0.1.3520.869@0.1.3520.869" timestamp="1607586985678" />
+    <state width="1556" height="319" key="GridCell.Tab.0.right" timestamp="1607586985679">
+      <screen x="0" y="1" width="3520" height="869" />
     </state>
     <state width="1556" height="227" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1606495078018" />
     <state width="1876" height="227" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606507590380" />
     <state width="1556" height="319" key="GridCell.Tab.0.right/0.1.1600.869@0.1.1600.869" timestamp="1607541411382" />
-    <state width="1876" height="372" key="GridCell.Tab.0.right/0.1.3520.869@0.1.3520.869" timestamp="1607528418064" />
+    <state width="1556" height="319" key="GridCell.Tab.0.right/0.1.3520.869@0.1.3520.869" timestamp="1607586985679" />
     <state width="1556" height="171" key="GridCell.Tab.1.bottom" timestamp="1607541218666">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
@@ -429,9 +349,10 @@
     <state x="2287" y="322" width="630" height="524" key="StructurePopup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1606505624749" />
     <state x="573" y="234" width="630" height="380" key="StructurePopup/0.1.1600.869@0.1.1600.869" timestamp="1607539812048" />
     <state x="1600" y="234" width="1386" height="380" key="StructurePopup/0.1.3520.869@0.1.3520.869" timestamp="1607518192601" />
-    <state x="395" y="172" width="804" height="523" key="Vcs.Push.Dialog.v2" timestamp="1607541369786">
+    <state x="395" y="172" width="804" height="523" key="Vcs.Push.Dialog.v2" timestamp="1607587098788">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
+    <state x="395" y="172" key="Vcs.Push.Dialog.v2/0.1.1600.869/1600.0.1920.1200@0.1.1600.869" timestamp="1607587098788" />
     <state x="395" y="172" width="804" height="523" key="Vcs.Push.Dialog.v2/0.1.1600.869@0.1.1600.869" timestamp="1607541369786" />
     <state x="892" y="310" width="552" height="491" key="extract.method.dialog" timestamp="1607539974801">
       <screen x="0" y="1" width="1600" height="869" />
