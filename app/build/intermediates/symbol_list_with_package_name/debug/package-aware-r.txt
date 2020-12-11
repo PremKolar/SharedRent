@@ -1,4 +1,4 @@
-com.example.sharedrent
+com.sr.sharedrent
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1551,8 +1551,6 @@ drawable ic_add
 drawable ic_apartment
 drawable ic_launcher_background
 drawable ic_launcher_custom_background
-drawable ic_launcher_foreground
-drawable ic_launcher_rubel
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1589,7 +1587,6 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable web_hi_res_512
 id ALT
 id BOTTOM_END
 id BOTTOM_START
