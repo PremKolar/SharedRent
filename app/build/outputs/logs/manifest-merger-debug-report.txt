@@ -43,7 +43,7 @@ INJECTED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidMa
 INJECTED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:3:5-37
+		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml
 		INJECTED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -82,10 +82,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/niko/
 		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:11:9-48
-activity#com.example.sharedrent.MainActivity
+activity#com.sr.sharedrent.MainActivity
 ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:12:19-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/niko/AndroidStudioProjects/SharedRent/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

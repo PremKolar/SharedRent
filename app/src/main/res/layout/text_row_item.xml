@@ -6,7 +6,7 @@
     <data>
         <variable
             name="tenant"
-            type="com.example.sharedrent.models.Tenant" />
+            type="com.sr.sharedrent.models.Tenant" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,70 +1,66 @@
-com/example/sharedrent/databinding/TextRowItemBinding.java
- com.example.sharedrent.databinding.TextRowItemBinding
-com/example/sharedrent/MainActivity.java
- com.example.sharedrent.MainActivity
-com/example/sharedrent/databinding/TextCellBinding.java
- com.example.sharedrent.databinding.TextCellBinding
-com/example/sharedrent/models/LandLord.java
- com.example.sharedrent.models.LandLord
- com.example.sharedrent.models.LandLord$1
-com/example/sharedrent/models/Flat.java
- com.example.sharedrent.models.Flat
-com/example/sharedrent/math/RentPerAreaSolver.java
- com.example.sharedrent.math.RentPerAreaSolver
-com/example/sharedrent/models/LivingArea.java
- com.example.sharedrent.models.LivingArea
-com/example/sharedrent/database/Converters.java
- com.example.sharedrent.database.Converters
- com.example.sharedrent.database.Converters$1
-com/example/sharedrent/database/DataBase.java
- com.example.sharedrent.database.DataBase
- com.example.sharedrent.database.DataBase$1
-com/example/sharedrent/ui/CustomAdapter.java
- com.example.sharedrent.ui.CustomAdapter
- com.example.sharedrent.ui.CustomAdapter$1
- com.example.sharedrent.ui.CustomAdapter$2
- com.example.sharedrent.ui.CustomAdapter$TenantViewHolder
-com/example/sharedrent/models/Money.java
- com.example.sharedrent.models.Money
-com/example/sharedrent/models/Tenant.java
- com.example.sharedrent.models.Tenant
-com/example/sharedrent/models/ShareMode.java
- com.example.sharedrent.models.ShareMode
-com/example/sharedrent/math/GaussianElimination.java
- com.example.sharedrent.math.GaussianElimination
-com/example/sharedrent/math/RentMathTools.java
- com.example.sharedrent.math.RentMathTools
-com/example/sharedrent/math/RentSolver.java
- com.example.sharedrent.math.RentSolver
-com/example/sharedrent/ui/RecyclerViewFragment.java
- com.example.sharedrent.ui.RecyclerViewFragment
- com.example.sharedrent.ui.RecyclerViewFragment$1
- com.example.sharedrent.ui.RecyclerViewFragment$10
- com.example.sharedrent.ui.RecyclerViewFragment$2
- com.example.sharedrent.ui.RecyclerViewFragment$3
- com.example.sharedrent.ui.RecyclerViewFragment$4
- com.example.sharedrent.ui.RecyclerViewFragment$5
- com.example.sharedrent.ui.RecyclerViewFragment$6
- com.example.sharedrent.ui.RecyclerViewFragment$7
- com.example.sharedrent.ui.RecyclerViewFragment$8
- com.example.sharedrent.ui.RecyclerViewFragment$9
-com/example/sharedrent/math/EqualResidualRentSolver.java
- com.example.sharedrent.math.EqualResidualRentSolver
-com/example/sharedrent/math/ProportionalRentSolver.java
- com.example.sharedrent.math.ProportionalRentSolver
-com/niko/sharedrent/DataBindingTriggerClass.java
- com.niko.sharedrent.DataBindingTriggerClass
-com/example/sharedrent/DataBindingTriggerClass.java
- com.example.sharedrent.DataBindingTriggerClass
-com/example/sharedrent/databinding/TableHeaderBinding.java
- com.example.sharedrent.databinding.TableHeaderBinding
-com/example/sharedrent/database/SharedRentDao.java
- com.example.sharedrent.database.SharedRentDao
-com/example/sharedrent/BuildConfig.java
- com.example.sharedrent.BuildConfig
-com/example/sharedrent/ui/SwipeToDeleteCallback.java
- com.example.sharedrent.ui.SwipeToDeleteCallback
-com/niko/sharedrent/BuildConfig.java
- com.niko.sharedrent.BuildConfig
-com/example/sharedrent/database/SharedRentViewModel.java
- com.example.sharedrent.database.SharedRentViewModel
+com/sr/sharedrent/database/DataBase.java
+ com.sr.sharedrent.database.DataBase
+ com.sr.sharedrent.database.DataBase$1
+com/sr/sharedrent/database/SharedRentViewModel.java
+ com.sr.sharedrent.database.SharedRentViewModel
+com/sr/sharedrent/database/Converters.java
+ com.sr.sharedrent.database.Converters
+ com.sr.sharedrent.database.Converters$1
+com/sr/sharedrent/models/LivingArea.java
+ com.sr.sharedrent.models.LivingArea
+com/sr/sharedrent/math/GaussianElimination.java
+ com.sr.sharedrent.math.GaussianElimination
+com/sr/sharedrent/ui/SwipeToDeleteCallback.java
+ com.sr.sharedrent.ui.SwipeToDeleteCallback
+com/sr/sharedrent/models/Flat.java
+ com.sr.sharedrent.models.Flat
+com/sr/sharedrent/ui/RecyclerViewFragment.java
+ com.sr.sharedrent.ui.RecyclerViewFragment
+ com.sr.sharedrent.ui.RecyclerViewFragment$1
+ com.sr.sharedrent.ui.RecyclerViewFragment$10
+ com.sr.sharedrent.ui.RecyclerViewFragment$2
+ com.sr.sharedrent.ui.RecyclerViewFragment$3
+ com.sr.sharedrent.ui.RecyclerViewFragment$4
+ com.sr.sharedrent.ui.RecyclerViewFragment$5
+ com.sr.sharedrent.ui.RecyclerViewFragment$6
+ com.sr.sharedrent.ui.RecyclerViewFragment$7
+ com.sr.sharedrent.ui.RecyclerViewFragment$8
+ com.sr.sharedrent.ui.RecyclerViewFragment$9
+com/sr/sharedrent/BuildConfig.java
+ com.sr.sharedrent.BuildConfig
+com/sr/sharedrent/models/Money.java
+ com.sr.sharedrent.models.Money
+com/sr/sharedrent/database/SharedRentDao.java
+ com.sr.sharedrent.database.SharedRentDao
+com/sr/sharedrent/models/Tenant.java
+ com.sr.sharedrent.models.Tenant
+com/sr/sharedrent/MainActivity.java
+ com.sr.sharedrent.MainActivity
+com/sr/sharedrent/math/ProportionalRentSolver.java
+ com.sr.sharedrent.math.ProportionalRentSolver
+com/sr/sharedrent/math/EqualResidualRentSolver.java
+ com.sr.sharedrent.math.EqualResidualRentSolver
+com/sr/sharedrent/databinding/TextRowItemBinding.java
+ com.sr.sharedrent.databinding.TextRowItemBinding
+com/sr/sharedrent/models/ShareMode.java
+ com.sr.sharedrent.models.ShareMode
+com/sr/sharedrent/math/RentMathTools.java
+ com.sr.sharedrent.math.RentMathTools
+com/sr/sharedrent/math/RentSolver.java
+ com.sr.sharedrent.math.RentSolver
+com/sr/sharedrent/models/LandLord.java
+ com.sr.sharedrent.models.LandLord
+ com.sr.sharedrent.models.LandLord$1
+com/sr/sharedrent/math/RentPerAreaSolver.java
+ com.sr.sharedrent.math.RentPerAreaSolver
+com/sr/sharedrent/ui/CustomAdapter.java
+ com.sr.sharedrent.ui.CustomAdapter
+ com.sr.sharedrent.ui.CustomAdapter$1
+ com.sr.sharedrent.ui.CustomAdapter$2
+ com.sr.sharedrent.ui.CustomAdapter$TenantViewHolder
+com/sr/sharedrent/databinding/TableHeaderBinding.java
+ com.sr.sharedrent.databinding.TableHeaderBinding
+com/sr/sharedrent/DataBindingTriggerClass.java
+ com.sr.sharedrent.DataBindingTriggerClass
+com/sr/sharedrent/databinding/TextCellBinding.java
+ com.sr.sharedrent.databinding.TextCellBinding
