@@ -1,13 +1,5 @@
 package com.example.sharedrent.math;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Tenant;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class RentMathTools {
     private final GaussianElimination gaussianElimination;
 

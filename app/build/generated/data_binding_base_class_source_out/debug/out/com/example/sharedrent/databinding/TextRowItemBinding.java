@@ -13,7 +13,7 @@ import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.sharedrent.R;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Tenant;
 import java.lang.Deprecated;
 import java.lang.Object;
 

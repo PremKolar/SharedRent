@@ -1,8 +1,8 @@
 package com.example.sharedrent.math;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.Money;
+import com.example.sharedrent.models.Tenant;
 
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +29,7 @@ public class EqualResidualRentSolver extends RentSolver {
 
     private double[] solveM(int[][] m, int[] b) {
         double[] v = GaussianElimination.lsolve(RentMathTools.twoDimIntToDouble(m),RentMathTools.oneDimIntToDouble(b));
-        Money residueForAll = new Money((int) v[0]);
+        Money residueForAll = new Money((int) v[0]); // not needed...
         return v;
     }
 
@@ -60,6 +60,4 @@ public class EqualResidualRentSolver extends RentSolver {
         }
         return M;
     }
-
-
 }

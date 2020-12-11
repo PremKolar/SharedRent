@@ -92,7 +92,7 @@ public final class DataBase_Impl extends DataBase {
         final TableInfo _infoTenants = new TableInfo("tenants", _columnsTenants, _foreignKeysTenants, _indicesTenants);
         final TableInfo _existingTenants = TableInfo.read(_db, "tenants");
         if (! _infoTenants.equals(_existingTenants)) {
-          return new RoomOpenHelper.ValidationResult(false, "tenants(com.example.sharedrent.Tenant).\n"
+          return new RoomOpenHelper.ValidationResult(false, "tenants(com.example.sharedrent.models.Tenant).\n"
                   + " Expected:\n" + _infoTenants + "\n"
                   + " Found:\n" + _existingTenants);
         }
@@ -106,7 +106,7 @@ public final class DataBase_Impl extends DataBase {
         final TableInfo _infoFlat = new TableInfo("Flat", _columnsFlat, _foreignKeysFlat, _indicesFlat);
         final TableInfo _existingFlat = TableInfo.read(_db, "Flat");
         if (! _infoFlat.equals(_existingFlat)) {
-          return new RoomOpenHelper.ValidationResult(false, "Flat(com.example.sharedrent.Flat).\n"
+          return new RoomOpenHelper.ValidationResult(false, "Flat(com.example.sharedrent.models.Flat).\n"
                   + " Expected:\n" + _infoFlat + "\n"
                   + " Found:\n" + _existingFlat);
         }

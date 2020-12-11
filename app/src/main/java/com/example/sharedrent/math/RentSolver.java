@@ -1,8 +1,8 @@
 package com.example.sharedrent.math;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.Money;
+import com.example.sharedrent.models.Tenant;
 
 import java.util.List;
 import java.util.Map;

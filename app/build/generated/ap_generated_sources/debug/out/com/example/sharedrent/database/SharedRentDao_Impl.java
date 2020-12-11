@@ -9,10 +9,10 @@ import androidx.room.RoomSQLiteQuery;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.LivingArea;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.LivingArea;
+import com.example.sharedrent.models.Money;
+import com.example.sharedrent.models.Tenant;
 import java.lang.Exception;
 import java.lang.Override;
 import java.lang.String;
@@ -87,7 +87,7 @@ public final class SharedRentDao_Impl implements SharedRentDao {
           stmt.bindString(1, value.name);
         }
         final int _tmp;
-        _tmp = Converters.fromRent(value.rent);
+        _tmp = Converters.fromMoney(value.rent);
         stmt.bindLong(2, _tmp);
         final double _tmp_1;
         _tmp_1 = Converters.fromLivingArea(value.livingArea);
@@ -184,7 +184,7 @@ public final class SharedRentDao_Impl implements SharedRentDao {
           stmt.bindString(1, value.name);
         }
         final int _tmp;
-        _tmp = Converters.fromRent(value.rent);
+        _tmp = Converters.fromMoney(value.rent);
         stmt.bindLong(2, _tmp);
         final double _tmp_1;
         _tmp_1 = Converters.fromLivingArea(value.livingArea);
@@ -298,7 +298,7 @@ public final class SharedRentDao_Impl implements SharedRentDao {
             _item = new Flat(_tmpName);
             final int _tmp;
             _tmp = _cursor.getInt(_cursorIndexOfRent);
-            _item.rent = Converters.toRent(_tmp);
+            _item.rent = Converters.toMoney(_tmp);
             final double _tmp_1;
             _tmp_1 = _cursor.getDouble(_cursorIndexOfLivingArea);
             _item.livingArea = Converters.toLivingArea(_tmp_1);

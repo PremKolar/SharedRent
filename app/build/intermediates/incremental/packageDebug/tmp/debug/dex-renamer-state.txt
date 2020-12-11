@@ -1,4 +1,4 @@
-#Thu Dec 10 21:07:58 CET 2020
+#Fri Dec 11 08:56:20 CET 2020
 base.0=/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

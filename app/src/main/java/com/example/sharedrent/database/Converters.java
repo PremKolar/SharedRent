@@ -2,10 +2,9 @@ package com.example.sharedrent.database;
 
 import androidx.room.TypeConverter;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.LivingArea;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Rent;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.LivingArea;
+import com.example.sharedrent.models.Money;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -13,15 +12,6 @@ import java.lang.reflect.Type;
 import java.util.HashSet;
 
 public class Converters {
-    @TypeConverter
-    public static Rent toRent(int cents) {
-        return new Rent(cents);
-    }
-
-    @TypeConverter
-    public static int fromRent(Rent r) {
-        return r == null ? null : r.getCents();
-    }
 
     @TypeConverter
     public static Money toMoney(int cents) {

@@ -8,8 +8,8 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.Tenant;
 
 import java.util.List;
 

@@ -6,11 +6,12 @@ import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.LivingArea;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.ShareMode;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.LandLord;
+import com.example.sharedrent.models.LivingArea;
+import com.example.sharedrent.models.Money;
+import com.example.sharedrent.models.ShareMode;
+import com.example.sharedrent.models.Tenant;
 import com.example.sharedrent.math.RentMathTools;
 
 import org.jetbrains.annotations.Nullable;
@@ -22,7 +23,6 @@ public class SharedRentViewModel extends ViewModel {
 
     private Application app;
     private SharedRentDao dao;
-    //    private final SharedRentRepository repo;
     public LiveData<List<Tenant>> getAllTenantsRaw;
     public LiveData<List<Flat>> getAllFlats;
     private Flat currentFlat;
@@ -34,18 +34,6 @@ public class SharedRentViewModel extends ViewModel {
         getAllFlats = dao.getAllFlats();
         getAllTenantsRaw = dao.getAllTenants();
         landLord = new LandLord(getAllFlats,getAllTenantsRaw);
-
-//        AsyncTask.execute(()-> {
-//            try {
-//                cleanUpDataBase();
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        });
-
-
-
-
     }
 
     private void cleanUpDataBase() throws InterruptedException {

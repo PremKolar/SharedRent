@@ -3,17 +3,16 @@ package com.example.sharedrent.database;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.example.sharedrent.Flat;
-import com.example.sharedrent.LivingArea;
-import com.example.sharedrent.Money;
-import com.example.sharedrent.Tenant;
+import com.example.sharedrent.models.Flat;
+import com.example.sharedrent.models.LivingArea;
+import com.example.sharedrent.models.Money;
+import com.example.sharedrent.models.Tenant;
 
 import kotlin.jvm.Volatile;
 

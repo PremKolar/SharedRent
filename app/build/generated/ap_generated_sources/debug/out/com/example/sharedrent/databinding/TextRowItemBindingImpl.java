@@ -86,7 +86,7 @@ public class TextRowItemBindingImpl extends TextRowItemBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.tenant == variableId) {
-            setTenant((com.example.sharedrent.Tenant) variable);
+            setTenant((com.example.sharedrent.models.Tenant) variable);
         }
         else {
             variableSet = false;
@@ -94,7 +94,7 @@ public class TextRowItemBindingImpl extends TextRowItemBinding  {
             return variableSet;
     }
 
-    public void setTenant(@Nullable com.example.sharedrent.Tenant Tenant) {
+    public void setTenant(@Nullable com.example.sharedrent.models.Tenant Tenant) {
         this.mTenant = Tenant;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -122,12 +122,12 @@ public class TextRowItemBindingImpl extends TextRowItemBinding  {
         java.lang.String tenantGetIncomeFormatted = null;
         java.lang.String tenantGetEffectiveLivingAreaGetFormatted = null;
         java.lang.String tenantGetRentGetFormatted = null;
-        com.example.sharedrent.Tenant tenant = mTenant;
+        com.example.sharedrent.models.Tenant tenant = mTenant;
         java.lang.String tenantGetRelativeLivingAreaPercentFormatted = null;
-        com.example.sharedrent.Money tenantGetRent = null;
+        com.example.sharedrent.models.Money tenantGetRent = null;
         java.lang.String tenantGetLivingAreaFormatted = null;
         java.lang.String tenantName = null;
-        com.example.sharedrent.LivingArea tenantGetEffectiveLivingArea = null;
+        com.example.sharedrent.models.LivingArea tenantGetEffectiveLivingArea = null;
 
         if ((dirtyFlags & 0x3L) != 0) {
 
