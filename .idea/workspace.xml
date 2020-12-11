@@ -10,22 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba5a02ed-c406-4171-9975-af9ca9725e96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LandLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LandLord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LivingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LivingArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/Tenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/Tenant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3_XL_API_29]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[9WV4C18913025527]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -54,6 +61,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="BundleExportedModule" value="SharedRent.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="9WV4C18913025527" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-11T10:49:13.494Z" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -182,97 +191,72 @@
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
     <state x="2293" y="335" width="528" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607673124733" />
-    <state x="0" y="1" width="1600" height="869" key="#xdebugger.evaluate" timestamp="1607678479811">
+    <state x="0" y="1" width="1600" height="869" key="#xdebugger.evaluate" timestamp="1607683521977">
       <screen x="0" y="1" width="1600" height="869" />
     </state>
-    <state x="0" y="1" width="1600" height="869" key="#xdebugger.evaluate/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607678479811" />
+    <state x="0" y="1" width="1600" height="869" key="#xdebugger.evaluate/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683521977" />
     <state x="2043" y="148" width="1027" height="871" key="CommitChangelistDialog2" timestamp="1607680597882">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
     <state x="2043" y="148" width="1027" height="871" key="CommitChangelistDialog2/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607680597882" />
-    <state width="470" height="485" key="DebuggerActiveHint" timestamp="1607677067756">
+    <state width="470" height="485" key="DebuggerActiveHint" timestamp="1607682183511">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="470" height="485" key="DebuggerActiveHint/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607677067756" />
+    <state width="470" height="485" key="DebuggerActiveHint/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607682183511" />
     <state x="2296" y="262" width="428" height="479" key="FileChooserDialogImpl" timestamp="1607674835289">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
     <state x="2296" y="262" key="FileChooserDialogImpl/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607674835289" />
     <state x="580" y="191" width="428" height="479" key="FileChooserDialogImpl/0.1.1600.869@0.1.1600.869" timestamp="1607630381742" />
-    <state width="1878" height="319" key="GridCell.Tab.0.bottom" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.0.bottom" timestamp="1607683767464">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.0.center" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.0.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683767464" />
+    <state width="1878" height="319" key="GridCell.Tab.0.center" timestamp="1607683767463">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.0.left" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.0.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683767463" />
+    <state width="1878" height="319" key="GridCell.Tab.0.left" timestamp="1607683767463">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.0.right" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.0.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683767463" />
+    <state width="1878" height="319" key="GridCell.Tab.0.right" timestamp="1607683767463">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.1.bottom" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.0.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683767463" />
+    <state width="1878" height="319" key="GridCell.Tab.1.bottom" timestamp="1607683762902">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.1.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.1.center" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.1.bottom/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683762902" />
+    <state width="1878" height="319" key="GridCell.Tab.1.center" timestamp="1607683762902">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.1.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.1.left" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.1.center/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683762902" />
+    <state width="1878" height="319" key="GridCell.Tab.1.left" timestamp="1607683762902">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.1.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
-    <state width="1878" height="319" key="GridCell.Tab.1.right" timestamp="1607679031994">
+    <state width="1878" height="319" key="GridCell.Tab.1.left/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683762902" />
+    <state width="1878" height="319" key="GridCell.Tab.1.right" timestamp="1607683762902">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="319" key="GridCell.Tab.1.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607679031994" />
+    <state width="1878" height="319" key="GridCell.Tab.1.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683762902" />
     <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2" timestamp="1607680601496">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
     <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607680601496" />
-    <state x="2195" y="247" width="730" height="708" key="find.popup" timestamp="1607678983732">
+    <state x="2195" y="247" width="745" height="708" key="find.popup" timestamp="1607683674911">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state x="2195" y="247" width="730" height="708" key="find.popup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607678983732" />
+    <state x="2195" y="247" width="745" height="708" key="find.popup/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683674911" />
     <state x="496" y="180" width="608" height="512" key="find.popup/0.1.1600.869@0.1.1600.869" timestamp="1607630484465" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java</url>
           <line>110</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java</url>
-          <line>168</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -130,6 +130,9 @@ public class LandLord {
 
     private double getRelativeLivingAreaFractionForTenant(Tenant tenant) {
         Flat flat = getFlatForTenant(tenant);
+        if(flat.getLivingArea().isZero()){
+            return 1;
+        }
         return getRelativeLivingAreaForTenant(tenant).divideBy(flat.getLivingArea());
     }
 

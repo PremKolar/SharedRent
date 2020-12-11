@@ -10,7 +10,7 @@ import com.sr.sharedrent.math.RentMathTools;
 public class Tenant {
 
     // for UI
-    public double relativeLivingAreaRatio;
+    public double relativeLivingAreaRatio = 0;
     public String rentPercentFormatted;
 
     @PrimaryKey @NonNull
@@ -63,7 +63,7 @@ public class Tenant {
         setIncome(newIncome);
     }
 
-    private void setIncome(Money m) {
+    public void setIncome(Money m) {
         this.income = m;
     }
 

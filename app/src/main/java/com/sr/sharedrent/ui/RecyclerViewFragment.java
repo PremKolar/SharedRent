@@ -117,7 +117,6 @@ public class RecyclerViewFragment extends Fragment {
                 if(++_callbackcheck > 1) {
                     mSharedRentViewModel.setCurrentFlatByName(selection);
                     initDataset();
-                    _callbackcheck = 0;
                 }else{
                     mSharedRentViewModel.setCurrentFlatByName(mSharedRentViewModel.getCurrentFlat().name);
                 }
@@ -305,6 +304,8 @@ public class RecyclerViewFragment extends Fragment {
 
     private void deleteCurrentFlat() {
         mSharedRentViewModel.deleteCurrentFlat();
+        initDataset();
+        _callbackcheck = 1;
     }
 
     private void addNewFlat() {

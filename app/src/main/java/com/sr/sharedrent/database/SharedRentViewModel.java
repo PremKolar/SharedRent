@@ -90,6 +90,7 @@ public class SharedRentViewModel extends ViewModel {
             deleteTenant(tenant);
         }
         AsyncTask.execute(()->dao.deleteFlat(flat));
+        currentFlat = getAllFlats.getValue().get(0);
     }
 
     public void deleteCurrentFlat(){
@@ -128,6 +129,7 @@ public class SharedRentViewModel extends ViewModel {
     public void addTenantWithName(String nameForNewTenant) {
         Tenant newTenant = createNewTenantFromName(nameForNewTenant);
         if (newTenant == null) return;
+        newTenant.setIncome(new Money(100000));
         insertTenant(newTenant);
         landLord.moveNewTenantIntoFlat(currentFlat,newTenant);
         updateFlat(currentFlat);
@@ -145,6 +147,8 @@ public class SharedRentViewModel extends ViewModel {
 
     public void addFlatWithName(String name) {
         Flat flat = new Flat(name);
+        flat.setLivingArea(new LivingArea(100));
+        flat.setRent(new Money(100000));
         insertFlat(flat);
         currentFlat = flat;
     }

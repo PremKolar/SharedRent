@@ -35,4 +35,8 @@ public class LivingArea {
     public LivingArea plus(LivingArea otherLivingArea) {
         return new LivingArea(msquared + otherLivingArea.msquared);
     }
+
+    public boolean isZero() {
+        return msquared == 0;
+    }
 }
