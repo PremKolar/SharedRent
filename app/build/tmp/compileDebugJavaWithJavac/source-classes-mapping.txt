@@ -3,9 +3,21 @@ com/sr/sharedrent/database/DataBase.java
  com.sr.sharedrent.database.DataBase$1
 com/sr/sharedrent/database/SharedRentViewModel.java
  com.sr.sharedrent.database.SharedRentViewModel
+com/sr/sharedrent/models/Tenant.java
+ com.sr.sharedrent.models.Tenant
+com/sr/sharedrent/MainActivity.java
+ com.sr.sharedrent.MainActivity
+com/sr/sharedrent/math/ProportionalRentSolver.java
+ com.sr.sharedrent.math.ProportionalRentSolver
+com/sr/sharedrent/math/EqualResidualRentSolver.java
+ com.sr.sharedrent.math.EqualResidualRentSolver
 com/sr/sharedrent/database/Converters.java
  com.sr.sharedrent.database.Converters
  com.sr.sharedrent.database.Converters$1
+com/sr/sharedrent/models/ShareMode.java
+ com.sr.sharedrent.models.ShareMode
+com/sr/sharedrent/math/RentMathTools.java
+ com.sr.sharedrent.math.RentMathTools
 com/sr/sharedrent/models/LivingArea.java
  com.sr.sharedrent.models.LivingArea
 com/sr/sharedrent/math/GaussianElimination.java
@@ -26,40 +38,26 @@ com/sr/sharedrent/ui/RecyclerViewFragment.java
  com.sr.sharedrent.ui.RecyclerViewFragment$7
  com.sr.sharedrent.ui.RecyclerViewFragment$8
  com.sr.sharedrent.ui.RecyclerViewFragment$9
+com/sr/sharedrent/math/RentSolver.java
+ com.sr.sharedrent.math.RentSolver
 com/sr/sharedrent/BuildConfig.java
  com.sr.sharedrent.BuildConfig
 com/sr/sharedrent/models/Money.java
  com.sr.sharedrent.models.Money
-com/sr/sharedrent/database/SharedRentDao.java
- com.sr.sharedrent.database.SharedRentDao
-com/sr/sharedrent/models/Tenant.java
- com.sr.sharedrent.models.Tenant
-com/sr/sharedrent/MainActivity.java
- com.sr.sharedrent.MainActivity
-com/sr/sharedrent/math/ProportionalRentSolver.java
- com.sr.sharedrent.math.ProportionalRentSolver
-com/sr/sharedrent/math/EqualResidualRentSolver.java
- com.sr.sharedrent.math.EqualResidualRentSolver
-com/sr/sharedrent/databinding/TextRowItemBinding.java
- com.sr.sharedrent.databinding.TextRowItemBinding
-com/sr/sharedrent/models/ShareMode.java
- com.sr.sharedrent.models.ShareMode
-com/sr/sharedrent/math/RentMathTools.java
- com.sr.sharedrent.math.RentMathTools
-com/sr/sharedrent/math/RentSolver.java
- com.sr.sharedrent.math.RentSolver
 com/sr/sharedrent/models/LandLord.java
  com.sr.sharedrent.models.LandLord
  com.sr.sharedrent.models.LandLord$1
 com/sr/sharedrent/math/RentPerAreaSolver.java
  com.sr.sharedrent.math.RentPerAreaSolver
-com/sr/sharedrent/ui/CustomAdapter.java
- com.sr.sharedrent.ui.CustomAdapter
- com.sr.sharedrent.ui.CustomAdapter$1
- com.sr.sharedrent.ui.CustomAdapter$2
- com.sr.sharedrent.ui.CustomAdapter$TenantViewHolder
-com/sr/sharedrent/databinding/TableHeaderBinding.java
- com.sr.sharedrent.databinding.TableHeaderBinding
+com/sr/sharedrent/databinding/RecyclerItemBinding.java
+ com.sr.sharedrent.databinding.RecyclerItemBinding
+com/sr/sharedrent/database/SharedRentDao.java
+ com.sr.sharedrent.database.SharedRentDao
+com/sr/sharedrent/ui/TenantAdapter.java
+ com.sr.sharedrent.ui.TenantAdapter
+ com.sr.sharedrent.ui.TenantAdapter$1
+ com.sr.sharedrent.ui.TenantAdapter$2
+ com.sr.sharedrent.ui.TenantAdapter$TenantViewHolder
 com/sr/sharedrent/DataBindingTriggerClass.java
  com.sr.sharedrent.DataBindingTriggerClass
 com/sr/sharedrent/databinding/TextCellBinding.java

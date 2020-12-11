@@ -53,8 +53,9 @@ public class SharedRentViewModel extends ViewModel {
         return currentFlat;
     }
 
-    public void tryToSetCurrentFlat() {
+    public void tryToInitCurrentFlatIfNull() {
         if (getAllFlats.getValue() == null || getAllFlats.getValue().size()<1) return;
+        if (currentFlat!=null)return;
         setCurrentFlat(getAllFlats.getValue().get(0));
     }
 
@@ -96,7 +97,7 @@ public class SharedRentViewModel extends ViewModel {
     }
 
     public List<Tenant> makeTenantList() {
-        if (currentFlat == null) tryToSetCurrentFlat();
+        if (currentFlat == null) tryToInitCurrentFlatIfNull();
         if (currentFlat == null) return null;
         landLord.recalc();
         return landLord.getAllTenantsForFlat(currentFlat);
@@ -128,12 +129,13 @@ public class SharedRentViewModel extends ViewModel {
         Tenant newTenant = createNewTenantFromName(nameForNewTenant);
         if (newTenant == null) return;
         insertTenant(newTenant);
+        landLord.moveNewTenantIntoFlat(currentFlat,newTenant);
         updateFlat(currentFlat);
     }
 
     @Nullable
     private Tenant createNewTenantFromName(String nameForNewTenant) {
-        if (currentFlat == null) tryToSetCurrentFlat();
+        if (currentFlat == null) tryToInitCurrentFlatIfNull();
         if (currentFlat == null) return null;
         Tenant dummy = new Tenant(nameForNewTenant);
         landLord.moveNewTenantIntoFlat(currentFlat,dummy);

@@ -40,8 +40,8 @@
         "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/res/merged/debug/layout_table_header.xml.flat",
-        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/table_header.xml"
+        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/res/merged/debug/layout_recycler_item.xml.flat",
+        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/recycler_item.xml"
     },
     {
         "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",
@@ -106,9 +106,5 @@
     {
         "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/niko/AndroidStudioProjects/SharedRent/app/build/intermediates/res/merged/debug/layout_text_row_item.xml.flat",
-        "source": "/home/niko/AndroidStudioProjects/SharedRent/app/src/main/res/layout/text_row_item.xml"
     }
 ]

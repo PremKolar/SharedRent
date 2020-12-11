@@ -46,7 +46,7 @@ import java.util.List;
 public class RecyclerViewFragment extends Fragment {
     private static final String TAG = "RecyclerViewFragment";
     protected RecyclerView mRecyclerView;
-    protected CustomAdapter mAdapter;
+    protected TenantAdapter mAdapter;
     protected RecyclerView.LayoutManager mLayoutManager;
     protected List<Tenant> mTenantsDataset;
     private SharedRentViewModel mSharedRentViewModel;
@@ -63,7 +63,7 @@ public class RecyclerViewFragment extends Fragment {
         final Observer<List<Flat>> flatObserver = new Observer<List<Flat>>() {
             @Override
             public void onChanged(@Nullable final List<Flat> newList) {
-                mSharedRentViewModel.tryToSetCurrentFlat();
+                mSharedRentViewModel.tryToInitCurrentFlatIfNull();
                 initDataset();
             }
         };
@@ -89,7 +89,7 @@ public class RecyclerViewFragment extends Fragment {
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         setRecyclerViewLayoutManager();
-        mAdapter = new CustomAdapter(mTenantsDataset);
+        mAdapter = new TenantAdapter(mTenantsDataset);
         mAdapter.setSharedViewModel(mSharedRentViewModel);
         mRecyclerView.setAdapter(mAdapter);
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteCallback(mAdapter));
@@ -114,9 +114,12 @@ public class RecyclerViewFragment extends Fragment {
 
                 }
                 String selection = parent.getItemAtPosition(position).toString();
-                mSharedRentViewModel.setCurrentFlatByName(selection);
                 if(++_callbackcheck > 1) {
+                    mSharedRentViewModel.setCurrentFlatByName(selection);
                     initDataset();
+                    _callbackcheck = 0;
+                }else{
+                    mSharedRentViewModel.setCurrentFlatByName(mSharedRentViewModel.getCurrentFlat().name);
                 }
             } // to close the onItemSelected
             public void onNothingSelected(AdapterView<?> parent){ }
