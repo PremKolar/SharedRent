@@ -10,22 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba5a02ed-c406-4171-9975-af9ca9725e96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/SharedRent.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/SharedRent.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/database/SharedRentViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LandLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LandLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LivingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/LivingArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/Tenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/models/Tenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sr/sharedrent/ui/RecyclerViewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -176,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607680599928</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-v1.4 BUGFIXES!!!">
+      <created>1607683889769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607683889769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +179,8 @@
     <MESSAGE value="some restructuring" />
     <MESSAGE value="-v1.2" />
     <MESSAGE value="-v1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="-v1.3" />
+    <MESSAGE value="-v1.4 BUGFIXES!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="-v1.4 BUGFIXES!!!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2293" y="335" width="528" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607673124733">
@@ -240,10 +236,10 @@
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="319" key="GridCell.Tab.1.right/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683762902" />
-    <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2" timestamp="1607680601496">
+    <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2" timestamp="1607683933921">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
-    <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607680601496" />
+    <state x="2155" y="308" width="804" height="550" key="Vcs.Push.Dialog.v2/0.1.1600.869/1600.0.1920.1200@1600.0.1920.1200" timestamp="1607683933921" />
     <state x="2195" y="247" width="745" height="708" key="find.popup" timestamp="1607683674911">
       <screen x="1600" y="0" width="1920" height="1200" />
     </state>
